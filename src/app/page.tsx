@@ -1,22 +1,31 @@
 import React from "react";
-
 import Image from "next/image";
+import "./page.css";
 
 export default function Home() {
   return (
-    <div className="Accueil">
-      <main className="container mx-auto p-4">
+    <div className="relative min-h-screen bg-gradient-to-br from-[#0b0b0b] via-[#111111] to-[#0b0b0b] text-white overflow-hidden Accueil">
+      {/* Blobs animés en fond */}
+      <div className="absolute top-[-100px] left-[-100px] w-60 h-60 bg-[#25aaa5] rounded-full filter blur-2xl opacity-40 animate-blob1"></div>
+      <div className="absolute bottom-[-80px] right-[-100px] w-80 h-80 bg-[#25aaa5] rounded-full filter blur-3xl opacity-30 animate-blob2"></div>
+
+      <main className="relative container mx-auto p-4">
         <h2>Bienvenue sur mon Portfolio</h2>
 
-
-        <div className="flex flex-row items-center justify-between p-6 bg-gradient-to-r  rounded-lg shadow-lg">
+        <div className="flex flex-row items-end justify-between p-6 bg-gradient-to-r rounded-lg shadow-lg mb-[200px]">
           <div className="basis-[40%] text-left">
-            <h1 className="text-[60px] font-bold text-[#ffffff] leading-tight mb-2">Eloane Ducrocq</h1>
-            <h2 className="text-[36px] font-medium text-[#25aaa5] mb-4">Développeur Full-Stack</h2>
+            <h1 className="text-[60px] font-bold text-[#ffffff] leading-tight mb-2">
+              Eloane Ducrocq
+            </h1>
+            <h2 className="text-[36px] font-medium text-[#25aaa5] mb-4">
+              Développeur Full-Stack
+            </h2>
             <p className="text-gray-500 font-light text-lg leading-relaxed mb-6">
-              Curieuse et passionnée par la tech, j’ai exploré et utilisé différentes technologies au fil de mon parcours.
-              Toujours en quête de nouveaux défis, je m’efforce d’élargir mes compétences et de repousser mes limites.
-              J’aime relever des challenges, apprendre constamment et contribuer à des projets innovants.
+              Curieuse et passionnée par la tech, j’ai exploré et utilisé différentes
+              technologies au fil de mon parcours. Toujours en quête de nouveaux défis,
+              je m’efforce d’élargir mes compétences et de repousser mes limites. J’aime
+              relever des challenges, apprendre constamment et contribuer à des projets
+              innovants.
             </p>
             <div className="flex gap-6 mt-4">
               <button className="bg-gradient-to-r from-[#25aaa5] via-[#25aaa5] to-[#1e938f] text-white font-semibold py-3 px-6 rounded-xl shadow-md hover:brightness-110 transition-all duration-300">
@@ -28,16 +37,19 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Photo de profil */}
           <div className="basis-[60%] flex justify-center">
-            <img
-              src="/photos/Photo_Ducrocq_Eloane-removebg.png"
-              alt="photo profil"
-              width={320}
-              height={320}
-            />
+            <div className="flex items-center h-full">
+              <img
+                src="/photos/Photo_Ducrocq_Eloane-removebg.png"
+                alt="photo profil"
+                width={320}
+                height={320}
+                className="object-contain"
+              />
+            </div>
           </div>
         </div>
+
 
         <section>
           <h3>Mes Projets</h3>

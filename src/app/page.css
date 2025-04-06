@@ -1,0 +1,19 @@
+@keyframes blob1 {
+  0% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -20px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+.animate-blob1 {
+  animation: blob1 12s infinite ease-in-out;
+}
+
+@keyframes blob2 {
+  0% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(-30px, 30px) scale(0.95); }
+  66% { transform: translate(20px, -20px) scale(1.05); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+.animate-blob2 {
+  animation: blob2 14s infinite ease-in-out;
+}
