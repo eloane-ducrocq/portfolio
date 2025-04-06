@@ -8,7 +8,8 @@ export default function Home() {
       <main className="container mx-auto p-4">
         <h2>Bienvenue sur mon Portfolio</h2>
 
-        <div className="flex flex-row items-center justify-between p-6 bg-gradient-to-r rounded-lg shadow-lg">
+
+        <div className="flex flex-row items-center justify-between p-6 bg-gradient-to-r  rounded-lg shadow-lg">
           <div className="basis-[40%] text-left">
             <h1 className="text-[60px] font-bold text-[#ffffff] leading-tight mb-2">Eloane Ducrocq</h1>
             <h2 className="text-[36px] font-medium text-[#25aaa5] mb-4">Développeur Full-Stack</h2>
@@ -29,7 +30,7 @@ export default function Home() {
 
           {/* Photo de profil */}
           <div className="basis-[60%] flex justify-center">
-            <Image
+            <img
               src="/photos/Photo_Ducrocq_Eloane-removebg.png"
               alt="photo profil"
               width={320}
