@@ -33,8 +33,8 @@ export default function RootLayout({
           <nav>
             <ul className="flex space-x-4">
               <li><a href="/">Accueil</a></li>
-              <li><a></a>A Propos</li>
-              <li><a href="/contact">Contact</a></li>
+              <li><a></a>A Propos de moi</li>
+              <li><a href="/contact">Contactez moi</a></li>
             </ul>
           </nav>
         </div>
