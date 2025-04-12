@@ -81,7 +81,7 @@ export default function Home() {
                     <span className="projet-arrow text-teal-500">→</span>
                   </div>
                   <p className="projet-description mb-4">
-                    Création d'un jeu Pokémon combinant la sélection de Pokemon jusqu'au combat contre une IA.
+                    Création d&apos;un jeu Pokémon combinant la sélection de Pokemon jusqu'au combat contre une IA.
                   </p>
                   <div className="projet-technologies mt-auto">
                     <span className="technologie-tag tag-java-tech">Java</span>
@@ -105,7 +105,7 @@ export default function Home() {
                     <h4 className="projet-title group-hover:text-green-600">Grow</h4>
                     <span className="projet-arrow text-green-500">→</span>
                   </div>
-                  <p className="projet-description mb-4">Réalisation d'un jeu NoCode en 48 heures</p>
+                  <p className="projet-description mb-4">Réalisation d&apos;un jeu NoCode en 48 heures</p>
                   <div className="projet-technologies mt-auto">
                     <span className="technologie-tag tag-Gdevelop-tech">Gdevelop</span>
                   </div>

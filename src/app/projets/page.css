@@ -229,6 +229,9 @@ strong {
   transition: transform 0.5s ease;
 }
 
+.c-white {
+  filter: brightness(0) invert(1);
+}
 
 
 .project-image.fullscreen {

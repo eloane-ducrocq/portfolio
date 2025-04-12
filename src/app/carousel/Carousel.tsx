@@ -14,7 +14,7 @@ interface LogoCarouselProps {
 const LogoCarousel: React.FC<LogoCarouselProps> = ({ logos }) => {
   const prevRef = useRef<HTMLDivElement>(null);
   const nextRef = useRef<HTMLDivElement>(null);
-  const [swiperInitialized, setSwiperInitialized] = useState<boolean>(false);
+  const [, setSwiperInitialized] = useState<boolean>(false);
 
   return (
     <div className="w-full py-8">

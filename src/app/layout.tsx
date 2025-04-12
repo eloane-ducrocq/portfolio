@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Link from 'next/link';
+
 
 import "./globals.css";
 
@@ -32,9 +34,18 @@ export default function RootLayout({
           <h1 className="text-xl font-bold">Mon Portfolio</h1>
           <nav>
             <ul className="flex space-x-4">
-              <li><a href="/">Accueil</a></li>
-              <li><a href="/aPropos">A Propos de moi</a></li>
-              <li><a href="/contact">Contactez moi</a></li>
+              <li><Link href="/">
+                Accueil
+              </Link>
+              </li>
+              <li><Link href="/aPropos">
+                A Propos de moi
+              </Link>
+              </li>
+              <li><Link href="/contact">
+                Contactez moi
+              </Link>
+              </li>
             </ul>
           </nav>
         </div>
