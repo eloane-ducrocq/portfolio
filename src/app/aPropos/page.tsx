@@ -1,10 +1,11 @@
 import React from 'react';
 import Carousel from "../carousel";
+import './page.css';
 
 function Page() {
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-[#0b0b0b] via-[#111111] to-[#0b0b0b] text-white overflow-hidden">
-      {/* Blobs animés asymétriques */}
+
       <div className="absolute top-[-150px] right-[-100px] w-72 h-72 bg-[#25aaa5] rounded-full filter blur-3xl opacity-40 animate-blob1" />
       <div className="absolute bottom-[-100px] left-[-80px] w-64 h-64 bg-[#25aaa5] rounded-full filter blur-3xl opacity-30 animate-blob2" />
       <div className="absolute top-[-50px] left-[-150px] w-48 h-48 bg-[#25aaa5] rounded-full filter blur-3xl opacity-20 animate-blob3" />
@@ -12,7 +13,6 @@ function Page() {
       <div className="absolute top-[20%] left-[-100px] w-60 h-60 bg-[#25aaa5] rounded-full filter blur-2xl opacity-35 animate-blob5" />
 
       <div className="relative px-6 py-12 max-w-6xl mx-auto space-y-24">
-        {/* SECTION À PROPOS */}
         <section className="space-y-10 animate-fadeInUp">
           <div className="text-center space-y-4">
             <h1 className="text-5xl font-extrabold tracking-tight drop-shadow-lg transition-transform hover:scale-105 duration-300">
@@ -37,7 +37,6 @@ function Page() {
           </div>
         </section>
 
-        {/* SECTION TECHNOLOGIES & OUTILS */}
         <section className="space-y-10 animate-fadeInUp">
           <h3 className="text-4xl font-bold text-center tracking-wide drop-shadow-lg transition-transform hover:scale-105 duration-300">
             Technologies & Outils

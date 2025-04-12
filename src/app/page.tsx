@@ -1,95 +1,215 @@
+'use client';
+
 import React from "react";
 import Image from "next/image";
 import "./page.css";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-[#0b0b0b] via-[#111111] to-[#0b0b0b] text-white overflow-hidden Accueil">
-      {/* Blobs animés en fond */}
-      <div className="absolute top-[-100px] left-[-100px] w-60 h-60 bg-[#25aaa5] rounded-full filter blur-2xl opacity-40 animate-blob1"></div>
-      <div className="absolute bottom-[-80px] right-[-100px] w-80 h-80 bg-[#25aaa5] rounded-full filter blur-3xl opacity-30 animate-blob2"></div>
+    <div className="h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory">
+      <section className="relative h-screen snap-start overflow-hidden bg-gradient-to-br from-[#0b0b0b] via-[#111111] to-[#0b0b0b] text-white overflow-hidden Accueil">
 
-      <main className="relative container mx-auto p-4">
-        <div className="flex flex-row items-center justify-between p-6 bg-gradient-to-r rounded-lg shadow-lg mb-[200px]">
-          <div className="basis-[50%] text-left ml-[100px]">
-            <h1 className="text-[64px] font-bold text-[#ffffff] leading-tight mb-[-19px]">
-              Eloane Ducrocq
-            </h1>
-            <h2 className="text-[40px] font-medium text-[#25aaa5]">
-              Développeuse Full-Stack
-            </h2>
-            <p className="text-gray-500 font-light text-[17px] leading-relaxed mb-6 mt-2">
-              Curieuse et passionnée par la tech, j’ai exploré et utilisé différentes
-              technologies au fil de mon parcours. Toujours en quête de nouveaux défis,
-              je m’efforce d’élargir mes compétences et de repousser mes limites. J’aime
-              relever des challenges, apprendre constamment et contribuer à des projets
-              innovants.
-            </p>
-            <div className="flex gap-6 mt-4">
-              <button className="bg-gradient-to-r from-[#25aaa5] via-[#25aaa5] to-[#1e938f] text-white font-semibold py-3 px-6 rounded-xl shadow-md hover:brightness-110 transition-all duration-300">
-                Mes Projets
-              </button>
-              <button className="border-2 border-[#25aaa5] text-[#25aaa5] font-semibold py-3 px-6 rounded-xl transition-all duration-300 hover:border-[#1e938f] hover:text-[#1e938f] hover:bg-[#25aaa5] hover:text-white focus:outline-none active:bg-transparent">
-                <a href="/contact">Me Contacter</a>
-              </button>
+        <div className="absolute top-[-100px] left-[-100px] w-60 h-60 bg-[#25aaa5] rounded-full filter blur-2xl opacity-40 animate-blob1"></div>
+        <div className="absolute bottom-[-80px] right-[-100px] w-80 h-80 bg-[#25aaa5] rounded-full filter blur-3xl opacity-30 animate-blob2"></div>
+
+        <main className="relative container mx-auto p-4">
+          <div id="accueilBottom" className="flex flex-row items-center justify-between p-6 bg-gradient-to-r rounded-lg shadow-lg ">
+            <div id="textAccueil" className="basis-[50%] ">
+              <h1 className="text-[64px] font-bold text-[#ffffff] leading-tight mb-[-19px]">
+                Eloane Ducrocq
+              </h1>
+              <h2 className="text-[40px] font-medium text-[#25aaa5]">
+                Développeuse Full-Stack
+              </h2>
+              <p className="text-gray-500 font-light text-[17px] leading-relaxed mb-6 mt-2">
+                Curieuse et passionnée par la tech, j’ai exploré et utilisé différentes
+                technologies au fil de mon parcours. Toujours en quête de nouveaux défis,
+                je m’efforce d’élargir mes compétences et de repousser mes limites. J’aime
+                relever des challenges, apprendre constamment et contribuer à des projets
+                innovants.
+              </p>
+              <div className="flex gap-6 mt-4">
+                <button
+                  onClick={() => {
+                    const section = document.getElementById("projets");
+                    section?.scrollIntoView({ behavior: "smooth" });
+                  }}
+                  className="bg-gradient-to-r from-[#25aaa5] via-[#25aaa5] to-[#1e938f] text-white font-semibold py-3 px-6 rounded-xl shadow-md hover:brightness-110 transition-all duration-300"
+                >
+                  Mes Projets
+                </button>
+
+                <button className="border-2 border-[#25aaa5] text-[#25aaa5] font-semibold py-3 px-6 rounded-xl transition-all duration-300 hover:border-[#1e938f] hover:text-[#1e938f] hover:bg-[#25aaa5] hover:text-white focus:outline-none active:bg-transparent">
+                  <a href="/contact">Me Contacter</a>
+                </button>
+              </div>
+            </div>
+
+            <div id="photo" className="basis-[60%] items-end flex justify-end justify-content: right;">
+              <img
+                src="/photos/Photo_Ducrocq_Eloane-removebg-Copie.png"
+                alt="photo profil"
+                className="object-contain h-[92vh]"
+              />
             </div>
           </div>
+        </main>
+      </section>
 
-          <div className="basis-[60%] items-end flex justify-end justify-content: right;">
-            <img
-              src="/photos/Photo_Ducrocq_Eloane-removebg-Copie.png"
-              alt="photo profil"
-              className="object-contain h-[91vh]"
-            />
+
+      <section id="projets" className="min-h-screen snap-start bg-[#111] px-8 py-12 text-white ">
+        <h3 className="projets-titre">
+          <span className="projets-titre-text">
+            Mes Projets
+            <span className="projets-titre-underline"></span>
+          </span>
+        </h3>
+        <div className="max-w-7xl w-full flex justify-self-center items-center">
+
+          <div className="projets-grid">
+
+            <a href="/projets/pokemon" className="group">
+              <div className="projet-card flex flex-col h-full">
+                <div className="projet-image-container">
+                  <img src="/projets/pokemon.png" alt="pokemon" className="projet-image" />
+                  <div className="projet-image-overlay"></div>
+                  <div className="projet-tag tag-jeu">jeu</div>
+                </div>
+                <div className="projet-content flex flex-col flex-grow">
+                  <div className="projet-header">
+                    <h4 className="projet-title group-hover:text-teal-600">Pokémon</h4>
+                    <span className="projet-arrow text-teal-500">→</span>
+                  </div>
+                  <p className="projet-description mb-4">
+                    Création d'un jeu Pokémon combinant la sélection de Pokemon jusqu'au combat contre une IA.
+                  </p>
+                  <div className="projet-technologies mt-auto">
+                    <span className="technologie-tag tag-java-tech">Java</span>
+                    <span className="technologie-tag tag-javafx-tech">JavaFX</span>
+                    <span className="technologie-tag tag-POO-tech">POO</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            {/* GROW */}
+            <a href="/projets/grow" className="group">
+              <div className="projet-card flex flex-col h-full">
+                <div className="projet-image-container">
+                  <img src="/projets/grow.png" alt="grow" className="projet-image" />
+                  <div className="projet-image-overlay"></div>
+                  <div className="projet-tag tag-mobile">Mobile</div>
+                </div>
+                <div className="projet-content flex flex-col flex-grow">
+                  <div className="projet-header">
+                    <h4 className="projet-title group-hover:text-green-600">Grow</h4>
+                    <span className="projet-arrow text-green-500">→</span>
+                  </div>
+                  <p className="projet-description mb-4">Réalisation d'un jeu NoCode en 48 heures</p>
+                  <div className="projet-technologies mt-auto">
+                    <span className="technologie-tag tag-Gdevelop-tech">Gdevelop</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            {/* HABITUDES */}
+            <a href="/projets/habitudes" className="group">
+              <div className="projet-card flex flex-col h-full">
+                <div className="projet-image-container">
+                  <img src="/projets/habitudes.png" alt="habitudes" className="projet-image" />
+                  <div className="projet-image-overlay"></div>
+                  <div className="projet-tag tag-purple">Web</div>
+                </div>
+                <div className="projet-content flex flex-col flex-grow">
+                  <div className="projet-header">
+                    <h4 className="projet-title group-hover:text-purple-600">Habitudes</h4>
+                    <span className="projet-arrow text-purple-500">→</span>
+                  </div>
+                  <p className="projet-description mb-4">
+                    Création d'un site web de suivi d'habitudes quotidiennes avec statistiques, calendrier et visualisations des progrès pour atteindre les objectifs.
+                  </p>
+                  <div className="projet-technologies mt-auto">
+                    <span className="technologie-tag tag-JS-tech">Javascript</span>
+                    <span className="technologie-tag tag-HTML-tech">HTML</span>
+                    <span className="technologie-tag tag-CSS-tech">CSS</span>
+                    <span className="technologie-tag tag-MVC-tech">MVC</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            {/* BATTLESHIP */}
+            <a href="/projets/battleship" className="group">
+              <div className="projet-card flex flex-col h-full">
+                <div className="projet-image-container">
+                  <img src="/projets/battleship.png" alt="battleship" className="projet-image" />
+                  <div className="projet-image-overlay"></div>
+                  <div className="projet-tag tag-jeu">Jeu</div>
+                </div>
+                <div className="projet-content flex flex-col flex-grow">
+                  <div className="projet-header">
+                    <h4 className="projet-title group-hover:text-blue-600">Battleship</h4>
+                    <span className="projet-arrow text-blue-500">→</span>
+                  </div>
+                  <p className="projet-description mb-4">
+                    Jeu de bataille navale multijoueur avec interface moderne et IA avancée pour des parties stratégiques et immersives.
+                  </p>
+                  <div className="projet-technologies mt-auto">
+                    <span className="technologie-tag tag-JS-tech">JavaScript</span>
+                    <span className="technologie-tag tag-PHP-tech">PHP</span>
+                    <span className="technologie-tag tag-HTML-tech">HTML</span>
+                    <span className="technologie-tag tag-CSS-tech">CSS</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+
+            <a href="/projets/dailyDev" className="group">
+              <div className="projet-card flex flex-col h-full">
+                <div className="projet-image-container">
+                  <img src="/projets/dailyDev.png" alt="Daily Dev" className="projet-image" />
+                  <div className="projet-image-overlay"></div>
+                  <div className="projet-tag tag-web">Web</div>
+                </div>
+
+                {/* Content zone that will grow */}
+                <div className="projet-content flex flex-col flex-grow">
+                  <div className="projet-header">
+                    <h4 className="projet-title group-hover:text-indigo-600">Daily Dev</h4>
+                    <span className="projet-arrow text-indigo-500">→</span>
+                  </div>
+                  <p className="projet-description mb-4">
+                    Reproduction de deux pages du site Daily Dev.
+                  </p>
+
+                  {/* Pushed to the bottom */}
+                  <div className="projet-technologies mt-auto">
+                    <span className="technologie-tag tag-HTML-tech">HTML</span>
+                    <span className="technologie-tag tag-CSS-tech">CSS</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+
+
+
+            <a className="group">
+              <div className="projet-card nouveau-projet-card">
+                <div className="projet-content">
+                  <div className="nouveau-projet-icon">
+                    <span className="nouveau-projet-plus">+</span>
+                  </div>
+                  <h4 className="nouveau-projet-title">Nouveau Projet</h4>
+                  <p className="nouveau-projet-description">Un nouveau projet passionnant est en cours de développement. Restez à l'écoute !</p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
-
-
-        <section>
-          <h3>Mes Projets</h3>
-          <div>
-            <div className="flex flex-wrap gap-4">
-              <div className="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div className="bg-white rounded-lg shadow-lg p-6">
-                  <h4 className="text-xl font-semibold mb-2">Projet Pokemon</h4>
-                  <img src="/projets/pokemon.png" alt="pokemon" />
-                  <p className="text-gray-700">Description du projet 1.</p>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div className="bg-white rounded-lg shadow-lg p-6">
-                  <h4 className="text-xl font-semibold mb-2">Projet Daily Dev</h4>
-                  <img src="/projets/dailyDev.png" alt="projet Daily Dev" />
-                  <p className="text-gray-700">Description du projet 2.</p>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div className="bg-white rounded-lg shadow-lg p-6">
-                  <h4 className="text-xl font-semibold mb-2">Projet Grow</h4>
-                  <img src="/projets/grow.png" alt="grow" />
-                  <p className="text-gray-700">Description du projet 3.</p>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div className="bg-white rounded-lg shadow-lg p-6">
-                  <h4 className="text-xl font-semibold mb-2">Projet Habitudes</h4>
-                  <img src="/projets/habitudes.png" alt="habitudes" />
-                  <p className="text-gray-700">Description du projet 4.</p>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div className="bg-white rounded-lg shadow-lg p-6">
-                  <h4 className="text-xl font-semibold mb-2">Projet Battleship</h4>
-                  <img src="/projets/battleship.png" alt="battleship" />
-                  <p className="text-gray-700">Description du projet 5.</p>
-                  lire la suite
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
+      </section >
     </div>
   );
 }

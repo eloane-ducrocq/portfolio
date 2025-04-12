@@ -7,11 +7,12 @@ export default function ContactForm() {
   const { formData, handleChange } = useContactForm();
 
   return (
-    <div className="relative">
+    <div className="relative overflow-x-hidden">
       <div className="relative">
-        <h1 className="text-[3rem] font-bold text-center mb-8">
+        <h1 className="text-[3rem] font-bold text-center mb-8 m-[10px]">
           Me Contactez
         </h1>
+
         <div className="absolute bottom-[-400px] left-[-100px] w-60 h-60 bg-[#25aaa5] rounded-full filter blur-2xl opacity-40 animate-blob1"></div>
         <div className="absolute bottom-[-80px] right-[-100px] w-80 h-80 bg-[#25aaa5] rounded-full filter blur-3xl opacity-30 animate-blob2"></div>
       </div>

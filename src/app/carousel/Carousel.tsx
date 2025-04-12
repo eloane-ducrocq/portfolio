@@ -5,6 +5,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation, Autoplay } from 'swiper/modules';
 
+import '../aPropos/page.css';
+
 interface LogoCarouselProps {
   logos: string[];
 }
@@ -19,7 +21,7 @@ const LogoCarousel: React.FC<LogoCarouselProps> = ({ logos }) => {
       <div className="flex items-center gap-4">
         <div
           ref={prevRef}
-          className="w-10 h-10 flex items-center justify-center bg-white shadow rounded-full cursor-pointer text-black"
+          className=" fleche w-10 h-10 flex items-center justify-center bg-white shadow rounded-full cursor-pointer text-black"
         >
           ←
         </div>
@@ -61,7 +63,7 @@ const LogoCarousel: React.FC<LogoCarouselProps> = ({ logos }) => {
 
         <div
           ref={nextRef}
-          className="w-10 h-10 flex items-center justify-center bg-white shadow rounded-full cursor-pointer text-black"
+          className="fleche w-10 h-10 flex items-center justify-center bg-white shadow rounded-full cursor-pointer text-black"
         >
           →
         </div>

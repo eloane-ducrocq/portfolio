@@ -1,4 +1,5 @@
 // data/projects.js
+
 export const projects = [
   {
     id: 'projet-grow',  // Ce sera ton "id" pour la page Grow

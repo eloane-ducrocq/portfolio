@@ -1,3 +1,8 @@
+body {
+  overflow-x: hidden;
+
+}
+
 @keyframes blob1 {
   0% { transform: translate(0, 0) scale(1); }
   33% { transform: translate(30px, -20px) scale(1.1); }
@@ -22,4 +27,70 @@
 
 .absolute {
   z-index: -1;
+}
+@media (max-width: 800px) {
+  /* Titre principal */
+  h1 {
+    font-size: 8vw;       /* Ajustement de la taille du texte en fonction de la largeur de la fenêtre */
+    margin-bottom: 6vw;   /* Espace sous le titre */
+    text-align: center;
+  }
+
+  /* Formulaire */
+  form {
+    padding: 6vw;         /* Espacement interne fluide */
+    border-radius: 4vw;   /* Coins arrondis en unité responsive */
+    margin: 0 4vw;     
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: -webkit-fill-available;
+    margin-left: 40px;
+    margin-right: 40px;  
+  }
+
+  /* Labels */
+  label {
+    font-size: 3.5vw;
+    margin-bottom: 1.5vw;
+    display: block;
+  }
+
+  /* Champs de saisie et zone de texte */
+  input,
+  textarea {
+    font-size: 3.5vw;
+    padding: 3vw;
+    border-radius: 3vw;
+    width: 100%;          /* Prendre toute la largeur disponible */
+    box-sizing: border-box;
+  }
+
+  /* Zone de texte spécifique */
+  textarea {
+    height: 15vh;         /* Hauteur responsive basée sur la hauteur de la fenêtre */
+    resize: none;         /* Pour éviter le redimensionnement manuel sur mobile */
+  }
+
+  /* Bouton */
+  button {
+    padding: 3vw 6vw;
+    font-size: 4vw;
+    border-radius: 3vw;
+    display: block;
+    margin: 0 auto;       /* Centrer le bouton */
+  }
+
+  /* Animations (blobs) */
+  .animate-blob1,
+  .animate-blob2 {
+    width: 40vw !important;
+    height: 40vw !important;
+    /* Positionnement ajusté pour conserver l'effet sans gêner le contenu */
+    bottom: -25vw !important;
+    /* Pour blob1 : on conserve la gauche, et pour blob2 la droite si besoin */
+    left: -20vw !important; 
+    right: -20vw !important; 
+    filter: blur(4vw);
+  }
 }

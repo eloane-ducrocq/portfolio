@@ -1,3 +1,12 @@
+body {
+  overflow-x: hidden;
+
+}
+
+p {
+  text-align: justify;
+}
+
 @keyframes blob1 {
   0% { transform: translate(0, 0) scale(1); }
   33% { transform: translate(40px, -30px) scale(1.1); }
@@ -75,3 +84,80 @@
 .animate-fadeIn {
   animation: fadeIn 1.5s ease-out both;
 }
+
+
+@media (max-width: 877px) and (min-width:600px){
+  p {
+max-width: max-content;
+}
+
+img {
+  width: 5vw;
+}
+
+}
+
+@media (max-width: 600px) and (min-width:463px){
+  p {
+  font-size: 3vw;
+  max-width: max-content;
+}
+h1 {
+  font-size: 7vw;
+
+}
+h2 {
+  font-size: 4vw;
+
+}
+h3 {
+  font-size: 4.5vw;
+
+}
+
+img {
+  width: 4vw;
+} 
+
+
+.fleche {
+
+font-size: 2vw;
+width: 4vw;
+height: 2vh;
+}
+}
+
+@media (max-width: 463px) {
+  
+  p {
+    font-size: 3vw;
+    max-width: max-content;
+  }
+  h1 {
+    font-size: 7vw;
+  
+  }
+  h2 {
+    font-size: 4vw;
+  
+  }
+  h3 {
+    font-size: 4.5vw;
+  
+  }
+  
+
+.fleche {
+
+font-size: 1vw;
+width: 3vw;
+height: 1vh;
+}
+
+img {
+  width: 4vw;
+} 
+
+}
+

@@ -10,7 +10,6 @@ const logos = [
   '/photos/github-142-svgrepo-com.svg',
   '/photos/c-svgrepo-com.svg',
   '/photos/css3-02-svgrepo-com.svg',
-  '/photos/next-16-svgrepo-com.svg',
   '/photos/html5-01-svgrepo-com.svg',
   '/photos/gitlab-svgrepo-com.svg',
   '/photos/intellijidea-svgrepo-com.svg',

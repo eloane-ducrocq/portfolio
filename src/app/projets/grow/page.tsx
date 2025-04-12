@@ -1,70 +1,211 @@
+'use client';
+
+import '../page.css';
+import { useState } from 'react';
+
 function Grow() {
+  const [isImageEnlarged, setIsImageEnlarged] = useState(false);
+
   return (
-    <div className="p-8">
-      <h1 className="text-3xl font-bold mb-4">Projet No-Code : Jeu « Grow »</h1>
-      <p className="text-gray-500 mb-2">Par Eloane / 18 mars 2025</p>
-      <a
-        href="https://gd.games/games/b7871b30-2357-4011-95b7-ac84b90d9c4c"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-600 underline mb-4 inline-block"
-      >
-        ▶️ Lien vers le jeu « Grow » sur GDevelop
-      </a>
+    <div className="project-container">
+      {/* Background animated blobs */}
+      <div className="blob blob-1 animate-blob1" />
+      <div className="blob blob-2 animate-blob2" />
+      <div className="blob blob-3 animate-blob3" />
+      <div className="blob blob-4 animate-blob4" />
+      <div className="blob blob-5 animate-blob5" />
+      <div className="blob blob-6 animate-blob6" />
 
-      <h2 className="text-2xl font-semibold mt-6 mb-2">Durée du projet</h2>
-      <p>48 heures</p>
+      {/* Main Content Container */}
+      <div className="content-wrapper">
+        {/* Project Header */}
+        <div className="project-header animate-fadeInUp">
+          <h1>Projet No-Code : Jeu « Grow »</h1>
+          <p className="project-meta">Par Eloane / 18 mars 2025</p>
 
-      <h2 className="text-2xl font-semibold mt-6 mb-2">Technologies utilisées</h2>
-      <ul className="list-disc ml-6">
-        <li>GDevelop (No-Code)</li>
-      </ul>
+          {/* Project Image and Link Section */}
+          <div className="project-image-container">
+            <img
+              src="../projets/grow.png"
+              alt="Capture d'écran du jeu Grow"
+              className={`project-image`}
+            />
 
-      <h2 className="text-2xl font-semibold mt-6 mb-2">Contexte du projet</h2>
-      <p>
-        Dans le cadre d’un challenge de 48 heures, notre équipe de 6 personnes (développeurs, graphiste, sound designer)
-        a conçu un jeu intitulé « Grow » en utilisant GDevelop, un moteur no-code. L’objectif était de créer une
-        expérience de jeu fluide et immersive en exploitant les possibilités offertes par GDevelop pour gérer les mécaniques du gameplay sans coder.
-      </p>
+          </div>
 
-      <h2 className="text-2xl font-semibold mt-6 mb-2">Répartition des rôles</h2>
-      <ul className="list-disc ml-6">
-        <li><strong>Game Design :</strong> Définition des règles et des interactions</li>
-        <li><strong>Développement :</strong> Création des logiques avec les événements GDevelop</li>
-        <li><strong>Graphisme :</strong> Dessins originaux assurant une identité visuelle unique</li>
-        <li><strong>Sound Design :</strong> Conception sonore et bande-son immersive</li>
-        <li><strong>Level Design :</strong> Construction et équilibrage des niveaux</li>
-      </ul>
+          <div>
+            <a
+              href="https://gd.games/games/b7871b30-2357-4011-95b7-ac84b90d9c4c"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="external-link"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                <polyline points="15 3 21 3 21 9" />
+                <line x1="10" y1="14" x2="21" y2="3" />
+              </svg>
+              Jouer au jeu « Grow » sur GDevelop
+            </a>
+          </div>
+        </div>
 
-      <h2 className="text-2xl font-semibold mt-6 mb-2">Concept du jeu – « Grow »</h2>
-      <p>
-        « Grow » est un jeu basé sur l’évolution et l’adaptation. Le joueur incarne un élément vivant
-        qui grandit et change en fonction de ses interactions avec l’environnement.
-        Ce concept dynamique permet une progression visuelle captivante et des défis stratégiques.
-      </p>
+        {/* Project Details */}
+        <div className="grid-container">
+          {/* Left Column */}
+          <div className="space-y animate-fadeInUp delay-200">
+            <div className="info-card">
+              <h2>⏱️ Durée du projet</h2>
+              <p>48 heures</p>
+            </div>
 
-      <h2 className="text-2xl font-semibold mt-6 mb-2">Objectifs et réalisations</h2>
-      <ul className="list-disc ml-6">
-        <li>🎯 Brainstorming rapide pour poser le gameplay</li>
-        <li>🎮 Développement no-code des mécaniques avec GDevelop</li>
-        <li>🎨 Création d’un univers graphique original</li>
-        <li>🔊 Intégration d’une ambiance sonore immersive</li>
-        <li>🧪 Tests et ajustements pour une jouabilité fluide</li>
-      </ul>
+            <div className="info-card">
+              <h2>💻 Technologies utilisées</h2>
+              <div className="tech-tags">
+                <span className="tech-tag">GDevelop (No-Code)</span>
+              </div>
+            </div>
 
-      <h2 className="text-2xl font-semibold mt-6 mb-2">Difficultés rencontrées</h2>
-      <p>
-        Le plus gros défi a été de respecter le délai très court de 48h tout en assurant une cohérence globale
-        dans le gameplay, les graphismes et l’audio. La synchronisation des différents pôles (graphisme, son, gameplay)
-        a demandé une vraie coordination.
-      </p>
+            <div className="info-card">
+              <h2>📝 Contexte du projet</h2>
+              <p>
+                Dans le cadre d'un challenge de 48 heures, notre équipe de 6 personnes (développeurs, graphiste, sound designer)
+                a conçu un jeu intitulé « Grow » en utilisant GDevelop, un moteur no-code. L'objectif était de créer une
+                expérience de jeu fluide et immersive en exploitant les possibilités offertes par GDevelop pour gérer les mécaniques du gameplay sans coder.
+              </p>
+            </div>
+          </div>
 
-      <h2 className="text-2xl font-semibold mt-6 mb-2">Conclusion</h2>
-      <p>
-        Ce projet m’a permis de développer mes compétences en game design, en travail d’équipe
-        et en gestion de projet dans un temps limité. L’utilisation de GDevelop m’a ouvert à des possibilités
-        créatives sans barrière technique, tout en mettant l’accent sur la logique et l’ergonomie.
-      </p>
+          {/* Right Column */}
+          <div className="space-y animate-fadeInUp delay-400">
+            <div className="info-card">
+              <h2>👥 Répartition des rôles</h2>
+              <div className="bullet-list">
+                <div className="bullet-item">
+                  <span className="bullet-marker">•</span>
+                  <span><strong>Game Design :</strong> Définition des règles et des interactions</span>
+                </div>
+                <div className="bullet-item">
+                  <span className="bullet-marker">•</span>
+                  <span><strong>Développement :</strong> Création des logiques avec les événements GDevelop</span>
+                </div>
+                <div className="bullet-item">
+                  <span className="bullet-marker">•</span>
+                  <span><strong>Graphisme :</strong> Dessins originaux assurant une identité visuelle unique</span>
+                </div>
+                <div className="bullet-item">
+                  <span className="bullet-marker">•</span>
+                  <span><strong>Sound Design :</strong> Conception sonore et bande-son immersive</span>
+                </div>
+                <div className="bullet-item">
+                  <span className="bullet-marker">•</span>
+                  <span><strong>Level Design :</strong> Construction et équilibrage des niveaux</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="info-card">
+              <h2>🎮 Concept du jeu</h2>
+              <p>
+                « Grow » est un jeu basé sur l'évolution et l'adaptation. Le joueur incarne un élément vivant
+                qui grandit et change en fonction de ses interactions avec l'environnement.
+                Ce concept dynamique permet une progression visuelle captivante et des défis stratégiques.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Full Width Sections */}
+        <div className="space-y animate-fadeInUp delay-600 sectionBack">
+          <div className="info-card">
+            <h2>🎯 Objectifs et réalisations</h2>
+            <div className="objectives-grid">
+              <div className="objective-item">
+                <div className="objective-icon">🧠</div>
+                <p>Brainstorming rapide pour poser le gameplay</p>
+              </div>
+              <div className="objective-item">
+                <div className="objective-icon">🎮</div>
+                <p>Développement no-code des mécaniques avec GDevelop</p>
+              </div>
+              <div className="objective-item">
+                <div className="objective-icon">🎨</div>
+                <p>Création d'un univers graphique original</p>
+              </div>
+              <div className="objective-item">
+                <div className="objective-icon">🔊</div>
+                <p>Intégration d'une ambiance sonore immersive</p>
+              </div>
+              <div className="objective-item">
+                <div className="objective-icon">🧪</div>
+                <p>Tests et ajustements pour une jouabilité fluide</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="info-card">
+            <h2>🧩 Difficultés rencontrées</h2>
+            <p>
+              Le plus gros défi a été de respecter le délai très court de 48h tout en assurant une cohérence globale
+              dans le gameplay, les graphismes et l'audio. La synchronisation des différents pôles (graphisme, son, gameplay)
+              a demandé une vraie coordination.
+            </p>
+          </div>
+
+          <div className="info-card">
+            <h2>📝 Conclusion</h2>
+            <p>
+              Ce projet m'a permis de développer mes compétences en game design, en travail d'équipe
+              et en gestion de projet dans un temps limité. L'utilisation de GDevelop m'a ouvert à des possibilités
+              créatives sans barrière technique, tout en mettant l'accent sur la logique et l'ergonomie.
+            </p>
+          </div>
+        </div>
+
+        {/* Navigate to other projects */}
+        <div className="other-projects-card animate-fadeInUp delay-800">
+          <h2>🔍 Découvrez mes autres projets</h2>
+          <div className="projects-grid">
+            <a href="../projets/pokemon" className="project-card">
+              <div className="project-card-icon">
+                <span style={{ fontSize: '2.5rem' }}>🎮</span>
+              </div>
+              <div className="project-card-content">
+                <h3 className="project-card-title">Jeu Pokémon</h3>
+                <p className="project-card-tech">Java, JavaFX</p>
+              </div>
+            </a>
+            <a href="../projets/habitudes" className="project-card">
+              <div className="project-card-icon">
+                <span style={{ fontSize: '2.5rem' }}>📊</span>
+              </div>
+              <div className="project-card-content">
+                <h3 className="project-card-title">Suivi d'Habitudes</h3>
+                <p className="project-card-tech">HTML, CSS, JavaScript</p>
+              </div>
+            </a>
+            <a href="../projets/dailyDev" className="project-card">
+              <div className="project-card-icon">
+                <span style={{ fontSize: '2.5rem' }}>🌐</span>
+              </div>
+              <div className="project-card-content">
+                <h3 className="project-card-title">Daily Dev</h3>
+                <p className="project-card-tech">HTML, CSS</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        {/* Contact CTA */}
+        <div className="contact-container animate-fadeInUp delay-1000">
+          <a href="../contact" className="contact-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            Me contacter pour en savoir plus
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
