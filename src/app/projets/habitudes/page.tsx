@@ -27,9 +27,9 @@ function Habitudes() {
 
           {/* Project Image and Link Section */}
           <div className="project-image-container">
-            <img
+            <Image
               src="../projets/habitudes.png"
-              alt="Capture d'écran du site de suivi d'habitudes"
+              alt="Capture d&apos;écran du site de suivi d&apos;habitudes"
               className={`project-image `}
             />
 
@@ -71,7 +71,7 @@ function Habitudes() {
             <div className="info-card">
               <h2>📝 Contexte du projet</h2>
               <p>
-                Développer une application web interactive pour le suivi des habitudes quotidiennes. L'objectif était de créer une interface intuitive pour aider les utilisateurs à gérer leurs tâches quotidiennes, suivre leur progression et visualiser des statistiques claires à travers des graphiques.
+                Développer une application web interactive pour le suivi des habitudes quotidiennes. L&apos;objectif était de créer une interface intuitive pour aider les utilisateurs à gérer leurs tâches quotidiennes, suivre leur progression et visualiser des statistiques claires à travers des graphiques.
               </p>
             </div>
           </div>
@@ -87,11 +87,11 @@ function Habitudes() {
                 </div>
                 <div className="bullet-item">
                   <span className="bullet-marker">•</span>
-                  <span><strong>Interface utilisateur :</strong> Design et implémentation de l'interface avec HTML/CSS</span>
+                  <span><strong>Interface utilisateur :</strong> Design et implémentation de l&apos;interface avec HTML/CSS</span>
                 </div>
                 <div className="bullet-item">
                   <span className="bullet-marker">•</span>
-                  <span><strong>Visualisation de données :</strong> Intégration de Chart.js pour l'affichage des graphiques</span>
+                  <span><strong>Visualisation de données :</strong> Intégration de Chart.js pour l&apos;affichage des graphiques</span>
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@ function Habitudes() {
             <div className="info-card">
               <h2>🎮 Concept du projet</h2>
               <p>
-                Le site permet aux utilisateurs de suivre leurs habitudes quotidiennes à travers une interface simple et fluide. L'objectif est de visualiser les progrès sur une période donnée grâce à des graphiques dynamiques. Les utilisateurs peuvent ajouter, modifier ou supprimer des habitudes, ainsi qu'analyser leurs statistiques à l'aide de graphiques interactifs.
+                Le site permet aux utilisateurs de suivre leurs habitudes quotidiennes à travers une interface simple et fluide. L&apos;objectif est de visualiser les progrès sur une période donnée grâce à des graphiques dynamiques. Les utilisateurs peuvent ajouter, modifier ou supprimer des habitudes, ainsi qu&apos;analyser leurs statistiques à l&apos;aide de graphiques interactifs.
               </p>
             </div>
           </div>
@@ -128,7 +128,7 @@ function Habitudes() {
               </div>
               <div className="objective-item">
                 <div className="objective-icon">🧪</div>
-                <p>Tests pour s'assurer de la fluidité de l'expérience utilisateur</p>
+                <p>Tests pour s&apos;assurer de la fluidité de l&apos;expérience utilisateur</p>
               </div>
             </div>
           </div>
@@ -136,14 +136,14 @@ function Habitudes() {
           <div className="info-card">
             <h2>🧩 Difficultés rencontrées</h2>
             <p>
-              Les principaux défis ont été l'implémentation du calendrier dynamique de manière fluide, la gestion de l'affichage dynamique en JavaScript tout en maintenant des performances optimales, et l'intégration de Chart.js pour assurer des graphiques clairs et interactifs.
+              Les principaux défis ont été l&apos;implémentation du calendrier dynamique de manière fluide, la gestion de l&apos;affichage dynamique en JavaScript tout en maintenant des performances optimales, et l&apos;intégration de Chart.js pour assurer des graphiques clairs et interactifs.
             </p>
           </div>
 
           <div className="info-card">
             <h2>📝 Conclusion</h2>
             <p>
-              Ce projet m'a permis de renforcer mes compétences en JavaScript, en particulier en ce qui concerne l'architecture MVC et la gestion dynamique des données. Il a également permis d'explorer l'intégration de graphiques interactifs avec Chart.js. Cette expérience m'a appris à optimiser l'interface utilisateur tout en prenant en compte l'expérience de navigation sur différents appareils.
+              Ce projet m&apos;a permis de renforcer mes compétences en JavaScript, en particulier en ce qui concerne l&apos;architecture MVC et la gestion dynamique des données. Il a également permis d&apos;explorer l&apos;intégration de graphiques interactifs avec Chart.js. Cette expérience m&apos;a appris à optimiser l&apos;interface utilisateur tout en prenant en compte l&apos;expérience de navigation sur différents appareils.
             </p>
           </div>
         </div>

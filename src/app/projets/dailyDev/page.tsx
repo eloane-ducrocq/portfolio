@@ -6,11 +6,9 @@ import Image from 'next/image';
 
 
 function DailyDev() {
-  const [isImageEnlarged, setIsImageEnlarged] = useState(false);
 
   return (
     <div className="project-container">
-      {/* Background animated blobs */}
       <div className="blob blob-1 animate-blob1" />
       <div className="blob blob-2 animate-blob2" />
       <div className="blob blob-3 animate-blob3" />
@@ -18,18 +16,15 @@ function DailyDev() {
       <div className="blob blob-5 animate-blob5" />
       <div className="blob blob-6 animate-blob6" />
 
-      {/* Main Content Container */}
       <div className="content-wrapper">
-        {/* Project Header */}
         <div className="project-header animate-fadeInUp">
           <h1>Reproduction du site Daily Dev</h1>
           <p className="project-meta">Par Eloane / Mars 2025</p>
 
-          {/* Project Image and Link Section */}
           <div className="project-image-container">
-            <img
+            <Image
               src="../projets/dailyDev.png"
-              alt="Capture d'écran du site Daily Dev"
+              alt="Capture d&apos;écran du site Daily Dev"
               className={`project-image `}
             />
             
@@ -70,7 +65,7 @@ function DailyDev() {
             <div className="info-card">
               <h2>📝 Contexte du projet</h2>
               <p>
-                L'objectif était de reproduire deux pages du site Daily Dev : la page d'accueil et la page de tags. Le challenge consistait à respecter au maximum le design original tout en développant les pages en HTML et CSS en seulement 5 jours.
+                L&apos;objectif était de reproduire deux pages du site Daily Dev : la page d&apos;accueil et la page de tags. Le challenge consistait à respecter au maximum le design original tout en développant les pages en HTML et CSS en seulement 5 jours.
               </p>
             </div>
           </div>
@@ -80,7 +75,7 @@ function DailyDev() {
             <div className="info-card">
               <h2>🎮 Concept du projet</h2>
               <p>
-                Ce projet de reproduction fidèle du site Daily Dev visait à mettre en pratique mes compétences en intégration web, tout en respectant les standards de responsive design. L'accent a été mis sur la précision visuelle, l'organisation du code et l'adaptation à différentes tailles d'écran.
+                Ce projet de reproduction fidèle du site Daily Dev visait à mettre en pratique mes compétences en intégration web, tout en respectant les standards de responsive design. L&apos;accent a été mis sur la précision visuelle, l&apos;organisation du code et l&apos;adaptation à différentes tailles d&apos;écran.
               </p>
             </div>
 
@@ -89,7 +84,7 @@ function DailyDev() {
               <div className="bullet-list">
                 <div className="bullet-item">
                   <span className="bullet-marker">•</span>
-                  <span><strong>Jour 1 :</strong> Analyse du site original et création de la structure HTML de la page d'accueil</span>
+                  <span><strong>Jour 1 :</strong> Analyse du site original et création de la structure HTML de la page d&apos;accueil</span>
                 </div>
                 <div className="bullet-item">
                   <span className="bullet-marker">•</span>
@@ -139,14 +134,14 @@ function DailyDev() {
           <div className="info-card">
             <h2>🧩 Difficultés rencontrées</h2>
             <p>
-              Le principal défi a été de respecter le délai de 5 jours tout en assurant un design fidèle à l'original et une expérience utilisateur fluide sur tous les supports. Le responsive design a nécessité une attention particulière pour garantir une transition harmonieuse entre les différentes tailles d'écran.
+              Le principal défi a été de respecter le délai de 5 jours tout en assurant un design fidèle à l&apos;original et une expérience utilisateur fluide sur tous les supports. Le responsive design a nécessité une attention particulière pour garantir une transition harmonieuse entre les différentes tailles d&apos;écran.
             </p>
           </div>
 
           <div className="info-card">
             <h2>📝 Conclusion</h2>
             <p>
-              Ce projet m'a permis de consolider mes bases en HTML et CSS, notamment en gestion de pages multiples et en conception responsive. Il m'a également appris à optimiser l'affichage pour une meilleure performance sur tous les écrans. Cette reproduction fidèle m'a poussée à approfondir ma maîtrise des outils de mise en page web modernes.
+              Ce projet m&apos;a permis de consolider mes bases en HTML et CSS, notamment en gestion de pages multiples et en conception responsive. Il m&apos;a également appris à optimiser l&apos;affichage pour une meilleure performance sur tous les écrans. Cette reproduction fidèle m&apos;a poussée à approfondir ma maîtrise des outils de mise en page web modernes.
             </p>
           </div>
         </div>
@@ -169,7 +164,7 @@ function DailyDev() {
                 <span style={{ fontSize: '2.5rem' }}>📊</span>
               </div>
               <div className="project-card-content">
-                <h3 className="project-card-title">Suivi d'Habitudes</h3>
+                <h3 className="project-card-title">Suivi d&apos;Habitudes</h3>
                 <p className="project-card-tech">HTML, CSS, JavaScript</p>
               </div>
             </a>

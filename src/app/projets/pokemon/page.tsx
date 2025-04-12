@@ -29,7 +29,7 @@ function Pokemon() {
           <div className="project-image-container">
             <img
               src="../projets/pokemon.png"
-              alt="Capture d'écran du jeu Pokémon"
+              alt="Capture d&apos;écran du jeu Pokémon"
               className={`project-image`}
 
             />
@@ -71,7 +71,7 @@ function Pokemon() {
             <div className="info-card">
               <h2>📝 Contexte du projet</h2>
               <p>
-                Ce jeu de combat Pokémon a été conçu en une semaine en binôme. Il s'agit d'un système de combat au tour par tour dans lequel le joueur affronte une IA. L'objectif principal était de créer un jeu fonctionnel avec une interface graphique immersive.
+                Ce jeu de combat Pokémon a été conçu en une semaine en binôme. Il s&apos;agit d&apos;un système de combat au tour par tour dans lequel le joueur affronte une IA. L&apos;objectif principal était de créer un jeu fonctionnel avec une interface graphique immersive.
               </p>
             </div>
           </div>
@@ -87,15 +87,15 @@ function Pokemon() {
                 </div>
                 <div className="bullet-item">
                   <span className="bullet-marker">•</span>
-                  <span><strong>Interface Graphique :</strong> Conception de l'UI avec JavaFX et FXML</span>
+                  <span><strong>Interface Graphique :</strong> Conception de l&apos;UI avec JavaFX et FXML</span>
                 </div>
                 <div className="bullet-item">
                   <span className="bullet-marker">•</span>
-                  <span><strong>Intelligence Artificielle :</strong> Programmation de l'IA pour le combat</span>
+                  <span><strong>Intelligence Artificielle :</strong> Programmation de l&apos;IA pour le combat</span>
                 </div>
                 <div className="bullet-item">
                   <span className="bullet-marker">•</span>
-                  <span><strong>Design :</strong> Création de l'esthétique visuelle et animations</span>
+                  <span><strong>Design :</strong> Création de l&apos;esthétique visuelle et animations</span>
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@ function Pokemon() {
             <div className="info-card">
               <h2>🎮 Concept du jeu</h2>
               <p>
-                Le jeu propose une expérience de combat Pokémon où le joueur choisit un Pokémon et l'affronte contre une IA dans un combat au tour par tour. Chaque Pokémon possède des attaques variées, et la victoire se décide en fonction de la stratégie utilisée par le joueur et des forces/faiblesses de chaque Pokémon.
+                Le jeu propose une expérience de combat Pokémon où le joueur choisit un Pokémon et l&apos;affronte contre une IA dans un combat au tour par tour. Chaque Pokémon possède des attaques variées, et la victoire se décide en fonction de la stratégie utilisée par le joueur et des forces/faiblesses de chaque Pokémon.
               </p>
             </div>
           </div>
@@ -115,23 +115,23 @@ function Pokemon() {
             <div className="objectives-grid">
               <div className="objective-item">
                 <div className="objective-icon">🎯</div>
-                <p>Conception d'un système de combat au tour par tour avec différents types de Pokémon</p>
+                <p>Conception d&apos;un système de combat au tour par tour avec différents types de Pokémon</p>
               </div>
               <div className="objective-item">
                 <div className="objective-icon">🎮</div>
-                <p>Développement de l'IA pour réagir aux choix du joueur</p>
+                <p>Développement de l&apos;IA pour réagir aux choix du joueur</p>
               </div>
               <div className="objective-item">
                 <div className="objective-icon">🎨</div>
-                <p>Création d'une interface graphique avec animations en JavaFX</p>
+                <p>Création d&apos;une interface graphique avec animations en JavaFX</p>
               </div>
               <div className="objective-item">
                 <div className="objective-icon">🔊</div>
-                <p>Intégration d'un système d'historique des actions en temps réel</p>
+                <p>Intégration d&apos;un système d&apos;historique des actions en temps réel</p>
               </div>
               <div className="objective-item">
                 <div className="objective-icon">🧪</div>
-                <p>Tests pour équilibrer le gameplay et optimiser l'IA</p>
+                <p>Tests pour équilibrer le gameplay et optimiser l&apos;IA</p>
               </div>
             </div>
           </div>
@@ -139,14 +139,14 @@ function Pokemon() {
           <div className="info-card">
             <h2>🧩 Difficultés rencontrées</h2>
             <p>
-              Le plus grand défi a été de gérer la complexité de l'IA et l'équilibrage des différents types de Pokémon. Trouver un équilibre entre les attaques et leur efficacité a nécessité de nombreux ajustements. De plus, le travail d'équipe en binôme a été essentiel pour répartir les tâches efficacement.
+              Le plus grand défi a été de gérer la complexité de l&apos;IA et l&apos;équilibrage des différents types de Pokémon. Trouver un équilibre entre les attaques et leur efficacité a nécessité de nombreux ajustements. De plus, le travail d&apos;équipe en binôme a été essentiel pour répartir les tâches efficacement.
             </p>
           </div>
 
           <div className="info-card">
             <h2>📝 Conclusion</h2>
             <p>
-              Ce projet a permis d'approfondir nos compétences en programmation orientée objet et en développement graphique. Il a également renforcé notre capacité à gérer un projet complexe tout en respectant un délai serré. L'optimisation de l'IA et de l'interface sont des points sur lesquels nous continuons à travailler pour améliorer l'expérience de jeu.
+              Ce projet a permis d&apos;approfondir nos compétences en programmation orientée objet et en développement graphique. Il a également renforcé notre capacité à gérer un projet complexe tout en respectant un délai serré. L&apos;optimisation de l&apos;IA et de l&apos;interface sont des points sur lesquels nous continuons à travailler pour améliorer l&apos;expérience de jeu.
             </p>
           </div>
         </div>
@@ -168,7 +168,7 @@ function Pokemon() {
                 <span style={{ fontSize: '2.5rem' }}>📊</span>
               </div>
               <div className="project-card-content">
-                <h3 className="project-card-title">Suivi d'Habitudes</h3>
+                <h3 className="project-card-title">Suivi d&apos;Habitudes</h3>
                 <p className="project-card-tech">HTML, CSS, JavaScript</p>
               </div>
             </a>

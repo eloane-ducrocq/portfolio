@@ -6,7 +6,6 @@ import Image from 'next/image';
 
 
 function Battleship() {
-  const [isImageEnlarged, setIsImageEnlarged] = useState(false);
 
   return (
     <div className="project-container">
@@ -27,9 +26,9 @@ function Battleship() {
 
           {/* Project Image and Link Section */}
           <div className="project-image-container">
-            <img
+            <Image
               src="../projets/battleship.png"
-              alt="Capture d'écran du jeu de Bataille Navale"
+              alt="Capture d&apos;écran du jeu de Bataille Navale"
               className={`project-image `}
             />
           
@@ -73,7 +72,7 @@ function Battleship() {
               <h2>📝 Contexte du projet</h2>
               <p>
                 Développer un jeu de Bataille Navale en local en 5 jours, avec une interface simple et fonctionnelle.
-                L'objectif était de proposer une version jouable et de gérer les scores, malgré le temps limité.
+                L&apos;objectif était de proposer une version jouable et de gérer les scores, malgré le temps limité.
                 Ce projet a été réalisé en binôme avec une répartition des tâches entre front-end et back-end.
               </p>
             </div>
@@ -138,14 +137,14 @@ function Battleship() {
           <div className="info-card">
             <h2>🧩 Difficultés rencontrées</h2>
             <p>
-              Nous avons dû faire face à plusieurs défis techniques. Le manque de temps nous a contraints à opter pour une grille pré-construite plutôt qu'un placement dynamique des bateaux. Le rafraîchissement entre les tours a nécessité une gestion côté serveur via PHP. Enfin, le mode de jeu a été limité à un fonctionnement local en raison des contraintes de développement.
+              Nous avons dû faire face à plusieurs défis techniques. Le manque de temps nous a contraints à opter pour une grille pré-construite plutôt qu&apos;un placement dynamique des bateaux. Le rafraîchissement entre les tours a nécessité une gestion côté serveur via PHP. Enfin, le mode de jeu a été limité à un fonctionnement local en raison des contraintes de développement.
             </p>
           </div>
 
           <div className="info-card">
             <h2>📝 Conclusion</h2>
             <p>
-              En seulement 5 jours, nous avons réussi à créer un jeu fonctionnel, bien que limité. Le projet nous a permis de développer nos compétences en travail d'équipe et en intégration front-end/back-end. Avec plus de temps, nous aurions ajouté de nombreuses fonctionnalités supplémentaires telles qu'un mode en ligne, un placement libre des bateaux et des animations pour rendre l'expérience plus immersive.
+              En seulement 5 jours, nous avons réussi à créer un jeu fonctionnel, bien que limité. Le projet nous a permis de développer nos compétences en travail d&apos;équipe et en intégration front-end/back-end. Avec plus de temps, nous aurions ajouté de nombreuses fonctionnalités supplémentaires telles qu&apos;un mode en ligne, un placement libre des bateaux et des animations pour rendre l&apos;expérience plus immersive.
             </p>
           </div>
         </div>
@@ -168,7 +167,7 @@ function Battleship() {
                 <span style={{ fontSize: '2.5rem' }}>📊</span>
               </div>
               <div className="project-card-content">
-                <h3 className="project-card-title">Suivi d'Habitudes</h3>
+                <h3 className="project-card-title">Suivi d&apos;Habitudes</h3>
                 <p className="project-card-tech">HTML, CSS, JavaScript</p>
               </div>
             </a>

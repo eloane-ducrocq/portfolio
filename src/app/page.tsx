@@ -1,5 +1,3 @@
-'use client';
-
 import React from "react";
 import Image from "next/image";
 import "./page.css";
@@ -46,7 +44,7 @@ export default function Home() {
             </div>
 
             <div id="photo" className="basis-[60%] items-end flex justify-end justify-content: right;">
-              <img
+              <Image
                 src="/photos/Photo_Ducrocq_Eloane-removebg-Copie.png"
                 alt="photo profil"
                 className="object-contain h-[92vh]"
@@ -71,7 +69,7 @@ export default function Home() {
             <a href="/projets/pokemon" className="group">
               <div className="projet-card flex flex-col h-full">
                 <div className="projet-image-container">
-                  <img src="/projets/pokemon.png" alt="pokemon" className="projet-image" />
+                  <Image src="/projets/pokemon.png" alt="pokemon" className="projet-image" />
                   <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-jeu">jeu</div>
                 </div>
@@ -81,7 +79,7 @@ export default function Home() {
                     <span className="projet-arrow text-teal-500">→</span>
                   </div>
                   <p className="projet-description mb-4">
-                    Création d&apos;un jeu Pokémon combinant la sélection de Pokemon jusqu'au combat contre une IA.
+                    Création d&apos;un jeu Pokémon combinant la sélection de Pokemon jusqu&apos;au combat contre une IA.
                   </p>
                   <div className="projet-technologies mt-auto">
                     <span className="technologie-tag tag-java-tech">Java</span>
@@ -96,7 +94,7 @@ export default function Home() {
             <a href="/projets/grow" className="group">
               <div className="projet-card flex flex-col h-full">
                 <div className="projet-image-container">
-                  <img src="/projets/grow.png" alt="grow" className="projet-image" />
+                  <Image src="/projets/grow.png" alt="grow" className="projet-image" />
                   <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-mobile">Mobile</div>
                 </div>
@@ -117,7 +115,7 @@ export default function Home() {
             <a href="/projets/habitudes" className="group">
               <div className="projet-card flex flex-col h-full">
                 <div className="projet-image-container">
-                  <img src="/projets/habitudes.png" alt="habitudes" className="projet-image" />
+                  <Image src="/projets/habitudes.png" alt="habitudes" className="projet-image" />
                   <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-purple">Web</div>
                 </div>
@@ -127,7 +125,7 @@ export default function Home() {
                     <span className="projet-arrow text-purple-500">→</span>
                   </div>
                   <p className="projet-description mb-4">
-                    Création d'un site web de suivi d'habitudes quotidiennes avec statistiques, calendrier et visualisations des progrès pour atteindre les objectifs.
+                    Création d&apos;un site web de suivi d&apos;habitudes quotidiennes avec statistiques, calendrier et visualisations des progrès pour atteindre les objectifs.
                   </p>
                   <div className="projet-technologies mt-auto">
                     <span className="technologie-tag tag-JS-tech">Javascript</span>
@@ -143,7 +141,7 @@ export default function Home() {
             <a href="/projets/battleship" className="group">
               <div className="projet-card flex flex-col h-full">
                 <div className="projet-image-container">
-                  <img src="/projets/battleship.png" alt="battleship" className="projet-image" />
+                  <Image src="/projets/battleship.png" alt="battleship" className="projet-image" />
                   <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-jeu">Jeu</div>
                 </div>
@@ -169,7 +167,7 @@ export default function Home() {
             <a href="/projets/dailyDev" className="group">
               <div className="projet-card flex flex-col h-full">
                 <div className="projet-image-container">
-                  <img src="/projets/dailyDev.png" alt="Daily Dev" className="projet-image" />
+                  <Image src="/projets/dailyDev.png" alt="Daily Dev" className="projet-image" />
                   <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-web">Web</div>
                 </div>
@@ -203,7 +201,7 @@ export default function Home() {
                     <span className="nouveau-projet-plus">+</span>
                   </div>
                   <h4 className="nouveau-projet-title">Nouveau Projet</h4>
-                  <p className="nouveau-projet-description">Un nouveau projet passionnant est en cours de développement. Restez à l'écoute !</p>
+                  <p className="nouveau-projet-description">Un nouveau projet passionnant est en cours de développement. Restez à l&apos;écoute !</p>
                 </div>
               </div>
             </a>
