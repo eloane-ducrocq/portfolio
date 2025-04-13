@@ -66,8 +66,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  justify-content: center; 
+  justify-content: flex-start; 
 }
+
 
 .projet-card {
   background-color: rgba(31, 41, 55, 0.6);
@@ -79,7 +80,7 @@
   height: 100%;
   flex: 1 1 auto;
   width: 380px;
-  max-width: 380px; /* La carte ne dépassera pas 350px */
+  max-width: 380px; 
   border: 1px solid #f3f4f6;
 }
 
@@ -198,12 +199,14 @@
 .tag-HTML-tech { background-image: linear-gradient(to right, #22c55e, #16a34a); }
 .tag-PHP-tech { background-image: linear-gradient(to right, #3b82f6, #2563eb); }
 .tag-MVC-tech { background-image: linear-gradient(to right, #eab308, #ca8a04); }
-.tag-vuejs-tech { background-image: linear-gradient(to right, #3b82f6, #2563eb); }
+.tag-django-tech { background-image: linear-gradient(to right, #3b82f6, #2563eb); }
 .tag-Gdevelop-tech { background-image: linear-gradient(to right, #ef4444, #dc2626); }
 .tag-JS-tech { background-image: linear-gradient(to right, #facc15, #eab308); }
-.tag-socketio-tech { background-image: linear-gradient(to right, #22c55e, #16a34a); }
+.tag-python-tech { background-image: linear-gradient(to right, #42ab68,#42ab68); }
+.tag-sql-tech { background-image: linear-gradient(to right, #bf2a9c,#bf2a9c); }
+.tag-api-tech { background-image: linear-gradient(to right, #30d5d0,#30d5d0); }
 
-/* Styles pour le nouveau projet */
+
 .nouveau-projet-card {
   background-image: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
   display: flex;
@@ -283,7 +286,6 @@
     margin-top: 6px;
   }
 
-  /* Ajuste la photo */
   .Accueil .object-contain {
     margin-right: -140px;
   }
@@ -306,7 +308,6 @@
     margin-top: 6px;
   }
 
-  /* Ajuste la photo */
   .Accueil .object-contain {
     margin-right: -120px;
 
@@ -317,7 +318,7 @@
     margin-bottom: 0px;
   }
 }
-/* Media Query pour 960px ou moins */
+
 @media (max-width: 960px) and (min-width: 875px) {
   .textAccueil {
     margin-left: 0;
@@ -350,7 +351,6 @@
   }
 }
 
-/* Media Query pour les écrans entre 853px et 960px */
 @media (max-width: 875px) and (min-width: 780px) {
   .textAccueil {
     margin-left: 0;
@@ -368,9 +368,7 @@
 
   .Accueil .object-contain {
     margin-right: 60px;
-
   }
-
 
   h1 {
     font-size: 35px;
@@ -398,7 +396,6 @@
     width: 100vw;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    
   }
 
   h1 {
@@ -427,7 +424,6 @@
     width: 100vw;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    
   }
 
   img {
@@ -452,7 +448,6 @@
   }
 }
 
-/* Media Query pour des écrans plus petits que 480px */
 @media (max-width: 700px) {
   .textAccueil {
     margin-left: 0;
@@ -471,9 +466,8 @@
     height: 55vh;
   }
 
-
   h1 {
-    font-size: 25px; /* Réduire la taille du texte */
+    font-size: 25px; 
   }
 
   h2 {
@@ -513,7 +507,7 @@
     max-width: 90vw;
     width: 90vw;
     height: 60vh;
-    background-color: #1a1a1a; /* Pour visibilité */
+    background-color: #1a1a1a; 
     box-shadow: 0 0 2vw rgba(0, 0, 0, 0.3);
   }
 
@@ -609,7 +603,7 @@
 
 
   #textAccueil h1 {
-    font-size: 2rem; /* réduit taille du titre */
+    font-size: 2rem; 
   }
 
   #textAccueil {
@@ -625,9 +619,6 @@
     font-size: 0.9rem;
     line-height: 1.4;
   }
-
-
-
 }
 
 
@@ -650,14 +641,12 @@
 }
 
 #textAccueil h1 {
-  font-size: 2rem; /* réduit taille du titre */
+  font-size: 2rem; 
 }
-
 
 #photo {
   height: 87vh;
 }
-
 
 #textAccueil h2 {
   font-size: 1.5rem;
@@ -667,8 +656,6 @@
   font-size: 0.9rem;
   line-height: 1.4;
 }
-  
-
 
 }
 

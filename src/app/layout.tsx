@@ -41,7 +41,6 @@ export default function RootLayout({
                 </h1>
               </div>
 
-              {/* Navigation Desktop */}
               <nav className="desktop-nav">
                 <ul className="nav-list">
                   <li>
@@ -62,7 +61,6 @@ export default function RootLayout({
                 </ul>
               </nav>
 
-              {/* Bouton menu mobile */}
               <button
                 className="mobile-menu-button"
                 onClick={toggleMenu}

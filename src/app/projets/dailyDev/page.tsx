@@ -28,7 +28,6 @@ function DailyDev() {
               width={300} 
               height={300}
             />
-            
           </div>
 
           <div>
@@ -39,16 +38,13 @@ function DailyDev() {
               className="external-link"
             >
               <Image src="/photos/gitlab-svgrepo-com.svg" alt="GitLab Logo" width="20" height="20" className='c-white' />
-
               Voir le code sur GitLab
             </a>
           </div>
         </div>
 
-        {/* Project Details */}
         <div className="grid-container">
-          {/* Left Column */}
-          <div className="space-y animate-fadeInUp delay-200">
+          <div className="space-y delay-200">
             <div className="info-card">
               <h2>⏱️ Durée du projet</h2>
               <p>5 jours</p>
@@ -58,20 +54,18 @@ function DailyDev() {
               <h2>💻 Technologies utilisées</h2>
               <div className="tech-tags">
                 <span className="tech-tag">HTML</span>
-                <span className="tech-tag">CSS (Flexbox)</span>
-                <span className="tech-tag">Media Queries</span>
+                <span className="tech-tag">CSS</span>
               </div>
             </div>
 
             <div className="info-card">
               <h2>📝 Contexte du projet</h2>
               <p>
-                L&apos;objectif était de reproduire deux pages du site Daily Dev : la page d&apos;accueil et la page de tags. Le challenge consistait à respecter au maximum le design original tout en développant les pages en HTML et CSS en seulement 5 jours.
+                L&apos;objectif était de reproduire 2 à 3 pages d&apos;un site Internet. J'ai choisis le site Daily Dev, où j&apos;ai du faire 2 pages : la page d&apos;accueil et la page de tags. Le challenge consistait à respecter au maximum le design original tout en développant les pages en HTML et CSS en seulement 5 jours.
               </p>
             </div>
           </div>
 
-          {/* Right Column */}
           <div className="space-y animate-fadeInUp delay-400">
             <div className="info-card">
               <h2>🎮 Concept du projet</h2>
@@ -79,39 +73,16 @@ function DailyDev() {
                 Ce projet de reproduction fidèle du site Daily Dev visait à mettre en pratique mes compétences en intégration web, tout en respectant les standards de responsive design. L&apos;accent a été mis sur la précision visuelle, l&apos;organisation du code et l&apos;adaptation à différentes tailles d&apos;écran.
               </p>
             </div>
-
-            <div className="info-card">
-              <h2>📌 Déroulement du projet</h2>
-              <div className="bullet-list">
-                <div className="bullet-item">
-                  <span className="bullet-marker">•</span>
-                  <span><strong>Jour 1 :</strong> Analyse du site original et création de la structure HTML de la page d&apos;accueil</span>
-                </div>
-                <div className="bullet-item">
-                  <span className="bullet-marker">•</span>
-                  <span><strong>Jour 2 :</strong> Développement de la page de tags et structuration en HTML</span>
-                </div>
-                <div className="bullet-item">
-                  <span className="bullet-marker">•</span>
-                  <span><strong>Jour 3-4 :</strong> Mise en place du CSS avec Flexbox et Media Queries</span>
-                </div>
-                <div className="bullet-item">
-                  <span className="bullet-marker">•</span>
-                  <span><strong>Jour 5 :</strong> Tests de responsive design et optimisation</span>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
 
-        {/* Full Width Sections */}
         <div className="space-y animate-fadeInUp delay-600 sectionBack">
           <div className="info-card">
-            <h2>🎯 Objectifs et réalisations</h2>
+            <h2>🎯 Fonctionnalitées Principales</h2>
             <div className="objectives-grid">
               <div className="objective-item">
                 <div className="objective-icon">📱</div>
-                <p>Adaptation parfaite aux formats mobile, tablette et desktop via Media Queries</p>
+                <p>Adaptation du responsive aux formats mobile, tablette et desktop </p>
               </div>
               <div className="objective-item">
                 <div className="objective-icon">🏗️</div>
@@ -119,7 +90,7 @@ function DailyDev() {
               </div>
               <div className="objective-item">
                 <div className="objective-icon">🎨</div>
-                <p>Mise en page responsive grâce à Flexbox et animations sur les boutons</p>
+                <p>Ressemblance avec le site de base</p>
               </div>
               <div className="objective-item">
                 <div className="objective-icon">🔖</div>
@@ -142,12 +113,11 @@ function DailyDev() {
           <div className="info-card">
             <h2>📝 Conclusion</h2>
             <p>
-              Ce projet m&apos;a permis de consolider mes bases en HTML et CSS, notamment en gestion de pages multiples et en conception responsive. Il m&apos;a également appris à optimiser l&apos;affichage pour une meilleure performance sur tous les écrans. Cette reproduction fidèle m&apos;a poussée à approfondir ma maîtrise des outils de mise en page web modernes.
+              Ce projet m&apos;a permis d&apos;améliorer mes bases en HTML et CSS, notamment en gestion de pages multiples et en conception responsive. Il m&apos;a également appris à optimiser l&apos;affichage pour une meilleure performance sur tous les écrans. Cette reproduction fidèle m&apos;a poussée à approfondir ma maîtrise des outils de mise en page web modernes.
             </p>
           </div>
         </div>
 
-        {/* Navigate to other projects */}
         <div className="other-projects-card animate-fadeInUp delay-800">
           <h2>🔍 Découvrez mes autres projets</h2>
           <div className="projects-grid">
@@ -181,7 +151,6 @@ function DailyDev() {
           </div>
         </div>
 
-        {/* Contact CTA */}
         <div className="contact-container animate-fadeInUp delay-1000">
           <a href="../contact" className="contactButton">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

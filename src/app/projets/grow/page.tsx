@@ -18,7 +18,7 @@ function Grow() {
       <div className="content-wrapper">
         <div className="project-header animate-fadeInUp">
           <h1>Projet No-Code : Jeu « Grow »</h1>
-          <p className="project-meta">Par Eloane / 18 mars 2025</p>
+          <p className="project-meta">Par Eloane et 5 autres membres / 18 mars 2025</p>
 
           <div className="project-image-container">
             <Image
@@ -39,15 +39,12 @@ function Grow() {
               className="external-link"
             >
               <Image src="/photos/gitlab-svgrepo-com.svg" alt="GitLab Logo" width="20" height="20" className='c-white' />
-
               Jouer au jeu « Grow » sur GDevelop
             </a>
           </div>
         </div>
 
-        {/* Project Details */}
         <div className="grid-container">
-          {/* Left Column */}
           <div className="space-y animate-fadeInUp delay-200">
             <div className="info-card">
               <h2>⏱️ Durée du projet</h2>
@@ -66,12 +63,11 @@ function Grow() {
               <p>
                 Dans le cadre d&apos;un challenge de 48 heures, notre équipe de 6 personnes (développeurs, graphiste, sound designer)
                 a conçu un jeu intitulé « Grow » en utilisant GDevelop, un moteur no-code. L&apos;objectif était de créer une
-                expérience de jeu fluide et immersive en exploitant les possibilités offertes par GDevelop pour gérer les mécaniques du gameplay sans coder.
+                expérience de jeu fluide et immersive en exploitant les possibilités offertes,ici par GDevelop pour gérer les mécaniques du gameplay sans coder.
               </p>
             </div>
           </div>
 
-          {/* Right Column */}
           <div className="space-y animate-fadeInUp delay-400">
             <div className="info-card">
               <h2>👥 Répartition des rôles</h2>
@@ -102,40 +98,38 @@ function Grow() {
             <div className="info-card">
               <h2>🎮 Concept du jeu</h2>
               <p>
-                « Grow » est un jeu basé sur l&apos;évolution et l&apos;adaptation. Le joueur incarne un élément vivant
-                qui grandit et change en fonction de ses interactions avec l&apos;environnement.
-                Ce concept dynamique permet une progression visuelle captivante et des défis stratégiques.
+                "Grow" est un jeu 2D d&apos;arcade où l&apos;on incarne une plante qui grandit en attrapant les gouttes. Plus on grandit, plus le jeu accélère. Attention aux escargots : les attraper vous fait perdre des cœurs ! Un gameplay simple basé sur les réflexes, l'évolution et l&apos;adaptation.
               </p>
             </div>
           </div>
         </div>
 
-        {/* Full Width Sections */}
         <div className="space-y animate-fadeInUp delay-600 sectionBack">
           <div className="info-card">
-            <h2>🎯 Objectifs et réalisations</h2>
+            <h2>🎯 Fonctionnalités principales</h2>
             <div className="objectives-grid">
               <div className="objective-item">
                 <div className="objective-icon">🧠</div>
-                <p>Brainstorming rapide pour poser le gameplay</p>
+                <p>Jeu de réflexe où il faut attraper les bons objets et éviter les mauvais</p>
               </div>
               <div className="objective-item">
-                <div className="objective-icon">🎮</div>
-                <p>Développement no-code des mécaniques avec GDevelop</p>
+                <div className="objective-icon">🌱</div>
+                <p>Progression évolutive : la plante grandit au fil des bonnes actions</p>
               </div>
               <div className="objective-item">
-                <div className="objective-icon">🎨</div>
-                <p>Création d&apos;un univers graphique original</p>
+                <div className="objective-icon">⚡</div>
+                <p>Vitesse qui augmente progressivement pour plus de challenge</p>
               </div>
               <div className="objective-item">
-                <div className="objective-icon">🔊</div>
-                <p>Intégration d&apos;une ambiance sonore immersive</p>
+                <div className="objective-icon">💎</div>
+                <p>Bonus Etoile a attraper pour se protéger</p>
               </div>
               <div className="objective-item">
-                <div className="objective-icon">🧪</div>
-                <p>Tests et ajustements pour une jouabilité fluide</p>
+                <div className="objective-icon">🐌</div>
+                <p>Musique pour différentes actions</p>
               </div>
             </div>
+
           </div>
 
           <div className="info-card">
@@ -191,7 +185,6 @@ function Grow() {
           </div>
         </div>
 
-        {/* Contact CTA */}
         <div className="contact-container animate-fadeInUp delay-1000">
           <a href="../contact" className="contactButton">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

@@ -9,7 +9,6 @@ function Habitudes() {
 
   return (
     <div className="project-container">
-      {/* Background animated blobs */}
       <div className="blob blob-1 animate-blob1" />
       <div className="blob blob-2 animate-blob2" />
       <div className="blob blob-3 animate-blob3" />
@@ -17,14 +16,11 @@ function Habitudes() {
       <div className="blob blob-5 animate-blob5" />
       <div className="blob blob-6 animate-blob6" />
 
-      {/* Main Content Container */}
       <div className="content-wrapper">
-        {/* Project Header */}
         <div className="project-header animate-fadeInUp">
           <h1>Site de Suivi d&apos;Habitudes</h1>
           <p className="project-meta">Par Eloane / Mars 2025</p>
 
-          {/* Project Image and Link Section */}
           <div className="project-image-container">
             <Image
               src="/projets/habitudes.png"
@@ -33,7 +29,6 @@ function Habitudes() {
               width={300}
               height={300}
             />
-
           </div>
 
           <div>
@@ -44,15 +39,12 @@ function Habitudes() {
               className="external-link"
             >
               <Image src="/photos/gitlab-svgrepo-com.svg" alt="GitLab Logo" width="20" height="20" className='c-white' />
-
               Voir le code sur GitLab
             </a>
           </div>
         </div>
 
-        {/* Project Details */}
         <div className="grid-container">
-          {/* Left Column */}
           <div className="space-y animate-fadeInUp delay-200">
             <div className="info-card">
               <h2>⏱️ Durée du projet</h2>
@@ -100,16 +92,15 @@ function Habitudes() {
             <div className="info-card">
               <h2>🎮 Concept du projet</h2>
               <p>
-                Le site permet aux utilisateurs de suivre leurs habitudes quotidiennes à travers une interface simple et fluide. L&apos;objectif est de visualiser les progrès sur une période donnée grâce à des graphiques dynamiques. Les utilisateurs peuvent ajouter, modifier ou supprimer des habitudes, ainsi qu&apos;analyser leurs statistiques à l&apos;aide de graphiques interactifs.
+                Le site permet aux utilisateurs de suivre leurs habitudes quotidiennes à travers une interface simple et fluide. L&apos;objectif est de visualiser les progrès sur une période donnée grâce à un calendrier. Les utilisateurs peuvent ajouter, modifier ou supprimer des habitudes, ainsi qu&apos;analyser leurs statistiques à l&apos;aide de graphiques interactifs.
               </p>
             </div>
           </div>
         </div>
 
-        {/* Full Width Sections */}
         <div className="space-y animate-fadeInUp delay-600 sectionBack">
           <div className="info-card">
-            <h2>🎯 Objectifs et réalisations</h2>
+            <h2>🎯 Fonctionnalités principales</h2>
             <div className="objectives-grid">
               <div className="objective-item">
                 <div className="objective-icon">🎯</div>
@@ -149,7 +140,6 @@ function Habitudes() {
           </div>
         </div>
 
-        {/* Navigate to other projects */}
         <div className="other-projects-card animate-fadeInUp delay-800">
           <h2>🔍 Découvrez mes autres projets</h2>
           <div className="projects-grid">
@@ -183,7 +173,6 @@ function Habitudes() {
           </div>
         </div>
 
-        {/* Contact CTA */}
         <div className="contact-container animate-fadeInUp delay-1000">
           <a href="../contact" className="contactButton">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

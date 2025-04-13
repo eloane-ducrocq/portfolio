@@ -1,11 +1,9 @@
 body {
   overflow-x: hidden;
-
 }
 
 form {
   margin-bottom: 4vh;     
-
 }
 
 @keyframes blob1 {
@@ -33,7 +31,6 @@ form {
 .absolute {
   z-index: -1;
 }@media (max-width: 800px) and (min-width:400px){
-  /* Titre principal */
   h1 {
     font-size: 5vw;  
     margin-top: 2vh;
@@ -41,7 +38,6 @@ form {
     text-align: center;
   }
 
-  /* Formulaire */
   form {
     border-radius: 3vw;  
     margin-bottom: 3vh;     
@@ -52,13 +48,11 @@ form {
     margin: 0 auto;
   }
 
-  /* Labels */
   label {
     font-size: 2.5vw;
     margin-bottom: 1vh;
   }
 
-  /* Champs de saisie et zone de texte */
   input,
   textarea {
     font-size: 2vw;
@@ -74,7 +68,6 @@ form {
     resize: none;
   }
 
-  /* Bouton */
   button {
     padding: 1vh 4vw;
     font-size: 2vw;
@@ -83,7 +76,6 @@ form {
     display: block;
   }
 
-  /* Blobs animés */
   .animate-blob1,
   .animate-blob2 {
     width: 40vw !important;
@@ -96,15 +88,13 @@ form {
 }
 
 @media (max-width: 400px) {
-  /* Titre principal */
   h1 {
-    font-size: 6vw;  /* Réduit la taille du titre */
+    font-size: 6vw;
     margin-top: 8vh;
     margin-bottom: 2vh;   
     text-align: center;
   }
 
-  /* Formulaire */
   form {
     border-radius: 3vw;  
     margin-bottom: 3vh;     
@@ -113,16 +103,14 @@ form {
     align-items: center;
     width: 90vw;
     margin: 0 auto;
-    padding: 2vh 0; /* Ajout d'un peu de padding pour que le formulaire ne soit pas trop collé */
-  }
+    padding: 2vh 0; 
+    }
 
-  /* Labels */
   label {
-    font-size: 4vw; /* Plus petit pour ne pas prendre trop de place */
+    font-size: 4vw; 
     margin-bottom: 1vh;
   }
 
-  /* Champs de saisie et zone de texte */
   input,
   textarea {
     font-size: 4vw;
@@ -130,15 +118,14 @@ form {
     border-radius: 2vw;
     width: 80vw;
     box-sizing: border-box;
-    height: 6vh; /* Réduit la hauteur pour que les champs ne prennent pas trop de place */
+    height: 6vh;
   }
 
   textarea {
-    height: 12vh; /* Réduit la hauteur de la zone de texte */
+    height: 12vh;
     resize: none;
   }
 
-  /* Bouton */
   button {
     padding: 1.5vh 3vw;
     font-size: 4vw;
@@ -147,10 +134,9 @@ form {
     display: block;
   }
 
-  /* Blobs animés */
   .animate-blob1,
   .animate-blob2 {
-    width: 35vw !important;  /* Réduit la taille des blobs */
+    width: 35vw !important;
     height: 35vw !important;
     bottom: -15vw !important;
     left: -15vw !important;

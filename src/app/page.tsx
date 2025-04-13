@@ -6,7 +6,7 @@ import "./page.css";
 
 export default function Home() {
   return (
-    <div className="h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory overflow-x-hidden  bg-gradient-to-br from-[#0b0b0b] via-[#111111] to-[#0b0b0b]">
+    <div className="w-full max-w-[100vw] overflow-x-hidden scroll-smooth snap-y snap-mandatory bg-gradient-to-br from-[#0b0b0b] via-[#111111] to-[#0b0b0b]">
 
       <div className="absolute top-[-150px] right-[-100px] w-72 h-72 bg-[#25aaa5] rounded-full filter blur-3xl opacity-40 animate-blob1" />
       <div className="absolute top-[-50px] left-[-150px] w-48 h-48 bg-[#25aaa5] rounded-full filter blur-3xl opacity-20 animate-blob3" />
@@ -60,7 +60,6 @@ export default function Home() {
         </main>
       </section>
 
-
       <section id="projets" className=" min-h-screen snap-start px-8 py-12 text-white ">
         <h3 className="projets-titre">
           <span className="projets-titre-text">
@@ -71,7 +70,6 @@ export default function Home() {
         <div className="max-w-7xl w-full flex justify-self-center items-center">
 
           <div className="projets-grid">
-
             <a href="/projets/pokemon" className="group">
               <div className="projet-card flex flex-col h-full">
                 <div className="projet-image-container">
@@ -98,7 +96,6 @@ export default function Home() {
               </div>
             </a>
 
-            {/* GROW */}
             <a href="/projets/grow" className="group">
               <div className="projet-card flex flex-col h-full">
                 <div className="projet-image-container">
@@ -121,7 +118,6 @@ export default function Home() {
               </div>
             </a>
 
-            {/* HABITUDES */}
             <a href="/projets/habitudes" className="group">
               <div className="projet-card flex flex-col h-full">
                 <div className="projet-image-container">
@@ -149,7 +145,6 @@ export default function Home() {
               </div>
             </a>
 
-            {/* BATTLESHIP */}
             <a href="/projets/battleship" className="group">
               <div className="projet-card flex flex-col h-full">
                 <div className="projet-image-container">
@@ -188,7 +183,6 @@ export default function Home() {
                   <div className="projet-tag tag-web">Web</div>
                 </div>
 
-                {/* Content zone that will grow */}
                 <div className="projet-content flex flex-col flex-grow">
                   <div className="projet-header">
                     <h4 className="projet-title group-hover:text-indigo-600">Daily Dev</h4>
@@ -198,7 +192,6 @@ export default function Home() {
                     Reproduction de deux pages du site Daily Dev.
                   </p>
 
-                  {/* Pushed to the bottom */}
                   <div className="projet-technologies mt-auto">
                     <span className="technologie-tag tag-HTML-tech">HTML</span>
                     <span className="technologie-tag tag-CSS-tech">CSS</span>
@@ -207,8 +200,37 @@ export default function Home() {
               </div>
             </a>
 
+            <a href="/projets/cheques" className="group">
+              <div className="projet-card flex flex-col h-full">
+                <div className="projet-image-container">
+                  <Image src="/projets/cheques.png" alt="Suivi de Chèques" className="projet-image"
+                    width={300}
+                    height={300} />
+                  <div className="projet-image-overlay"></div>
+                  <div className="projet-tag tag-web">Web Full-Stack</div>
+                </div>
 
+                <div className="projet-content flex flex-col flex-grow">
+                  <div className="projet-header">
+                    <h4 className="projet-title group-hover:text-indigo-600">Suivi de Chèques</h4>
+                    <span className="projet-arrow text-indigo-500">→</span>
+                  </div>
+                  <p className="projet-description mb-4">
+                    Développement d’un site full-stack pour la Métropole d’Orléans en 3 semaines, permettant aux structures de suivre les chèques attribués.
+                  </p>
 
+                  <div className="projet-technologies mt-auto">
+                    <span className="technologie-tag tag-HTML-tech">HTML</span>
+                    <span className="technologie-tag tag-CSS-tech">CSS</span>
+                    <span className="technologie-tag tag-JS-tech">JavaScript</span>
+                    <span className="technologie-tag tag-django-tech">Django</span>
+                    <span className="technologie-tag tag-api-tech">API REST</span>
+                    <span className="technologie-tag tag-sql-tech">SQL</span>
+                    <span className="technologie-tag tag-python-tech">Python</span>
+                  </div>
+                </div>
+              </div>
+            </a>
 
             <a className="group mb-[-26px]">
               <div className="projet-card nouveau-projet-card">

@@ -1,11 +1,11 @@
 body {
   overflow-x: hidden;
-
 }
 
 p {
   text-align: justify;
 }
+
 @keyframes blob1 {
   0% { transform: translate(0, 0) scale(1); }
   33% { transform: translate(40px, -30px) scale(1.1); }
@@ -16,7 +16,6 @@ p {
   animation: blob1 10s infinite ease-in-out;
 }
 
-/* Animation Blob 2 */
 @keyframes blob2 {
   0% { transform: translate(0, 0) scale(1); }
   33% { transform: translate(-30px, 40px) scale(0.9); }
@@ -27,7 +26,6 @@ p {
   animation: blob2 12s infinite ease-in-out;
 }
 
-/* Animation Blob 3 */
 @keyframes blob3 {
   0% { transform: translate(0, 0) scale(1); }
   33% { transform: translate(20px, 50px) scale(1.1); }
@@ -38,7 +36,6 @@ p {
   animation: blob3 14s infinite ease-in-out;
 }
 
-/* Animation Blob 4 */
 @keyframes blob4 {
   0% { transform: translate(0, 0) scale(1); }
   33% { transform: translate(-50px, 20px) scale(1.05); }
@@ -49,7 +46,6 @@ p {
   animation: blob4 16s infinite ease-in-out;
 }
 
-/* Animation Blob 5 */
 @keyframes blob5 {
   0% { transform: translate(0, 0) scale(1); }
   33% { transform: translate(30px, -40px) scale(0.9); }
@@ -60,55 +56,55 @@ p {
   animation: blob5 18s infinite ease-in-out;
 }
 
-@media (max-width: 877px) and (min-width:600px){
+@media (max-width: 877px) and (min-width:600px) {
   p {
-max-width: max-content;
-}
+  max-width: max-content;
+  }
 
-#CARROUSEL {
-margin-bottom: -40px;
-}
+  #CARROUSEL {
+  margin-bottom: -40px;
+  }
 
-img {
-  width: 5vw;
-}
+  img {
+    width: 5vw;
+  }
 
 }
 
 @media (max-width: 600px) and (min-width:463px){
   p {
-  font-size: 2.5vw;
-  max-width: max-content;
-}
-h1 {
-  font-size: 7vw;
-
-}
-
-#CARROUSEL {
-  margin-bottom: -50px;
+    font-size: 2.5vw;
+    max-width: max-content;
   }
-h2 {
-  font-size: 4vw;
+  h1 {
+    font-size: 7vw;
 
-}
-h3 {
-  font-size: 4vw;
-  margin-bottom: 10px;
+  }
 
-}
+  #CARROUSEL {
+    margin-bottom: -50px;
+  }
 
-img {
+  h2 {
+    font-size: 4vw;
+
+  }
+  h3 {
+    font-size: 4vw;
+    margin-bottom: 10px;
+
+  }
+
+  img {
+    width: 4vw;
+  } 
+
+  .fleche {
+
+  font-size: 2vw;
   width: 4vw;
-} 
-
-
-.fleche {
-
-font-size: 2vw;
-width: 4vw;
-height: 2vh;
-}
+  height: 2vh;
+  }
 }
 
 @media (max-width: 463px) {
@@ -135,17 +131,16 @@ height: 2vh;
 
   }
   
+  .fleche {
 
-.fleche {
+  font-size: 1vw;
+  width: 3vw;
+  height: 1vh;
+  }
 
-font-size: 1vw;
-width: 3vw;
-height: 1vh;
-}
-
-img {
-  width: 4vw;
-} 
+  img {
+    width: 4vw;
+  } 
 
 }
 

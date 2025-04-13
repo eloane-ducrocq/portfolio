@@ -3,12 +3,10 @@
 import '../page.css';
 import Image from 'next/image';
 
-
 function Battleship() {
 
   return (
     <div className="project-container">
-      {/* Background animated blobs */}
       <div className="blob blob-1 animate-blob1" />
       <div className="blob blob-2 animate-blob2" />
       <div className="blob blob-3 animate-blob3" />
@@ -16,14 +14,11 @@ function Battleship() {
       <div className="blob blob-5 animate-blob5" />
       <div className="blob blob-6 animate-blob6" />
 
-      {/* Main Content Container */}
       <div className="content-wrapper">
-        {/* Project Header */}
         <div className="project-header animate-fadeInUp">
           <h1>Jeu de Bataille Navale en Local</h1>
-          <p className="project-meta">Par Eloane / Mars 2025</p>
-
-          {/* Project Image and Link Section */}
+          <p className="project-meta">Par Eloane et Nawfel / Mars 2025</p>
+a
           <div className="project-image-container">
             <Image
               src="/projets/battleship.png"
@@ -32,7 +27,6 @@ function Battleship() {
               width={300}
               height={300}
             />
-
           </div>
 
           <div>
@@ -43,15 +37,12 @@ function Battleship() {
               className="external-link"
             >
               <Image src="/photos/gitlab-svgrepo-com.svg" alt="GitLab Logo" width="20" height="20" className='c-white' />
-
               Voir le code sur GitLab
             </a>
           </div>
         </div>
 
-        {/* Project Details */}
         <div className="grid-container">
-          {/* Left Column */}
           <div className="space-y animate-fadeInUp delay-200">
             <div className="info-card">
               <h2>⏱️ Durée du projet</h2>
@@ -79,7 +70,6 @@ function Battleship() {
             </div>
           </div>
 
-          {/* Right Column */}
           <div className="space-y animate-fadeInUp delay-400">
             <div className="info-card">
               <h2>👥 Répartition des rôles</h2>
@@ -107,7 +97,6 @@ function Battleship() {
           </div>
         </div>
 
-        {/* Full Width Sections */}
         <div className="space-y animate-fadeInUp delay-600 sectionBack">
           <div className="info-card">
             <h2>🎯 Fonctionnalités principales</h2>
@@ -138,7 +127,7 @@ function Battleship() {
           <div className="info-card">
             <h2>🧩 Difficultés rencontrées</h2>
             <p>
-              Nous avons dû faire face à plusieurs défis techniques. Le manque de temps nous a contraints à opter pour une grille pré-construite plutôt qu&apos;un placement dynamique des bateaux. Le rafraîchissement entre les tours a nécessité une gestion côté serveur via PHP. Enfin, le mode de jeu a été limité à un fonctionnement local en raison des contraintes de développement.
+              Nous avons dû faire face à plusieurs défis techniques. Le manque de temps nous a contraints à opter pour une grille pré-construite plutôt qu&apos;un placement dynamique des bateaux. Le rafraîchissement entre les tours a nécessité une gestion côté serveur via PHP. Enfin, le mode de jeu a été limité à un fonctionnement local en raison du manque de temps.
             </p>
           </div>
 
@@ -150,7 +139,6 @@ function Battleship() {
           </div>
         </div>
 
-        {/* Navigate to other projects */}
         <div className="other-projects-card animate-fadeInUp delay-800">
           <h2>🔍 Découvrez mes autres projets</h2>
           <div className="projects-grid">
@@ -160,7 +148,7 @@ function Battleship() {
               </div>
               <div className="project-card-content">
                 <h3 className="project-card-title">Jeu Pokémon</h3>
-                <p className="project-card-tech">Java, JavaFX</p>
+                <p className="project-card-tech">Java, JavaFX, POO</p>
               </div>
             </a>
             <a href="../projets/habitudes" className="project-card">
