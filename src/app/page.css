@@ -23,7 +23,6 @@ body {
   overflow-x: hidden;
 }
 
-
 #projets {
   margin: 0px;
   display: flex
@@ -32,7 +31,6 @@ body {
   justify-self: center;
   height: fit-content;
 }
-
 
 .projets-section {
   width: 100%;
