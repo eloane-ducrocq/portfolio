@@ -152,13 +152,13 @@ function Habitudes() {
                 <p className="project-card-tech">Java, JavaFX</p>
               </div>
             </a>
-            <a href="../projets/grow" className="project-card">
+            <a href="../projets/cheques" className="project-card">
               <div className="project-card-icon">
-                <span style={{ fontSize: '2.5rem' }}>🌱</span>
+                <span style={{ fontSize: '2.5rem' }}>📊</span>
               </div>
               <div className="project-card-content">
-                <h3 className="project-card-title">Jeu « Grow »</h3>
-                <p className="project-card-tech">GDevelop (No-Code)</p>
+                <h3 className="project-card-title">Site de suivis de cheques</h3>
+                <p className="project-card-tech">Javascript, CSS, HTML, Python, Django, Api Rest</p>
               </div>
             </a>
             <a href="../projets/battleship" className="project-card">

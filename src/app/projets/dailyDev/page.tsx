@@ -25,7 +25,7 @@ function DailyDev() {
               src="/projets/dailyDev.png"
               alt="Capture d&apos;écran du site Daily Dev"
               className={`project-image `}
-              width={300} 
+              width={300}
               height={300}
             />
           </div>
@@ -66,15 +66,30 @@ function DailyDev() {
             </div>
           </div>
 
-          <div className="space-y animate-fadeInUp delay-400">
+
+          <div className="space-y animate-fadeInUp delay-800">
             <div className="info-card">
-              <h2>🎮 Concept du projet</h2>
-              <p>
-                Ce projet de reproduction fidèle du site Daily Dev visait à mettre en pratique mes compétences en intégration web, tout en respectant les standards de responsive design. L&apos;accent a été mis sur la précision visuelle, l&apos;organisation du code et l&apos;adaptation à différentes tailles d&apos;écran.
-              </p>
+              <h2>👥 Répartition des rôles</h2>
+              <div className="bullet-list">
+                <div className="bullet-item">
+                  <span className="bullet-marker">•</span>
+                  <span><strong>Moi :</strong> Développement du Front-end (HTML, CSS, JavaScript)</span>
+                </div>
+                <div className="bullet-item">
+                  <span className="bullet-marker">•</span>
+                  <span><strong>Partenaire :</strong> Gestion du Back-end (PHP, SQL)</span>
+                </div>
+              </div>
+            </div>
+
+              <div className="info-card">
+                <h2>🎮 Concept du projet</h2>
+                <p>
+                  Ce projet de reproduction fidèle du site Daily Dev visait à mettre en pratique mes compétences en intégration web, tout en respectant les standards de responsive design. L&apos;accent a été mis sur la précision visuelle, l&apos;organisation du code et l&apos;adaptation à différentes tailles d&apos;écran.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
         <div className="space-y animate-fadeInUp delay-600 sectionBack">
           <div className="info-card">

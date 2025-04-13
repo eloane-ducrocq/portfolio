@@ -155,13 +155,13 @@ function Grow() {
         <div className="other-projects-card animate-fadeInUp delay-800">
           <h2>🔍 Découvrez mes autres projets</h2>
           <div className="projects-grid">
-            <a href="../projets/pokemon" className="project-card">
+            <a href="../projets/cheques" className="project-card">
               <div className="project-card-icon">
-                <span style={{ fontSize: '2.5rem' }}>🎮</span>
+                <span style={{ fontSize: '2.5rem' }}>📊</span>
               </div>
               <div className="project-card-content">
-                <h3 className="project-card-title">Jeu Pokémon</h3>
-                <p className="project-card-tech">Java, JavaFX</p>
+                <h3 className="project-card-title">Site de suivis de cheques</h3>
+                <p className="project-card-tech">Javascript, CSS, HTML, Python, Django, Api Rest</p>
               </div>
             </a>
             <a href="../projets/habitudes" className="project-card">
