@@ -23,9 +23,11 @@ function Grow() {
 
           <div className="project-image-container">
             <Image
-              src="../projets/grow.png"
+              src="/projets/grow.png"
               alt="Capture d&apos;écran du jeu Grow"
               className={`project-image`}
+              width={300}
+              height={300}
             />
 
           </div>

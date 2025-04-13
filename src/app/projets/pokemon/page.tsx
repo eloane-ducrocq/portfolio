@@ -6,7 +6,6 @@ import Image from 'next/image';
 
 
 function Pokemon() {
-  const [isImageEnlarged, setIsImageEnlarged] = useState(false);
 
   return (
     <div className="project-container">
@@ -27,10 +26,12 @@ function Pokemon() {
 
           {/* Project Image and Link Section */}
           <div className="project-image-container">
-            <img
-              src="../projets/pokemon.png"
+            <Image
+              src="/projets/pokemon.png"
               alt="Capture d&apos;écran du jeu Pokémon"
               className={`project-image`}
+              width={300} 
+              height={300}
 
             />
           </div>

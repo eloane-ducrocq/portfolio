@@ -23,9 +23,11 @@ function DailyDev() {
 
           <div className="project-image-container">
             <Image
-              src="../projets/dailyDev.png"
+              src="/projets/dailyDev.png"
               alt="Capture d&apos;écran du site Daily Dev"
               className={`project-image `}
+              width={300} 
+              height={300}
             />
             
           </div>

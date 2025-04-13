@@ -27,9 +27,11 @@ function Battleship() {
           {/* Project Image and Link Section */}
           <div className="project-image-container">
             <Image
-              src="../projets/battleship.png"
+              src="/projets/battleship.png"
               alt="Capture d&apos;écran du jeu de Bataille Navale"
               className={`project-image `}
+              width={300} 
+              height={300}
             />
           
           </div>

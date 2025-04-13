@@ -1,3 +1,5 @@
+'use client';
+
 import React from "react";
 import Image from "next/image";
 import "./page.css";
@@ -48,6 +50,8 @@ export default function Home() {
                 src="/photos/Photo_Ducrocq_Eloane-removebg-Copie.png"
                 alt="photo profil"
                 className="object-contain h-[92vh]"
+                width={300}
+                height={300}
               />
             </div>
           </div>
@@ -69,7 +73,9 @@ export default function Home() {
             <a href="/projets/pokemon" className="group">
               <div className="projet-card flex flex-col h-full">
                 <div className="projet-image-container">
-                  <Image src="/projets/pokemon.png" alt="pokemon" className="projet-image" />
+                  <Image src="/projets/pokemon.png" alt="pokemon" className="projet-image"
+                    width={300}
+                    height={300} />
                   <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-jeu">jeu</div>
                 </div>
@@ -94,7 +100,9 @@ export default function Home() {
             <a href="/projets/grow" className="group">
               <div className="projet-card flex flex-col h-full">
                 <div className="projet-image-container">
-                  <Image src="/projets/grow.png" alt="grow" className="projet-image" />
+                  <Image src="/projets/grow.png" alt="grow" className="projet-image"
+                    width={300}
+                    height={300} />
                   <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-mobile">Mobile</div>
                 </div>
@@ -115,7 +123,9 @@ export default function Home() {
             <a href="/projets/habitudes" className="group">
               <div className="projet-card flex flex-col h-full">
                 <div className="projet-image-container">
-                  <Image src="/projets/habitudes.png" alt="habitudes" className="projet-image" />
+                  <Image src="/projets/habitudes.png" alt="habitudes" className="projet-image"
+                    width={300}
+                    height={300} />
                   <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-purple">Web</div>
                 </div>
@@ -141,7 +151,9 @@ export default function Home() {
             <a href="/projets/battleship" className="group">
               <div className="projet-card flex flex-col h-full">
                 <div className="projet-image-container">
-                  <Image src="/projets/battleship.png" alt="battleship" className="projet-image" />
+                  <Image src="/projets/battleship.png" alt="battleship" className="projet-image"
+                    width={300}
+                    height={300} />
                   <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-jeu">Jeu</div>
                 </div>
@@ -167,7 +179,9 @@ export default function Home() {
             <a href="/projets/dailyDev" className="group">
               <div className="projet-card flex flex-col h-full">
                 <div className="projet-image-container">
-                  <Image src="/projets/dailyDev.png" alt="Daily Dev" className="projet-image" />
+                  <Image src="/projets/dailyDev.png" alt="Daily Dev" className="projet-image"
+                    width={300}
+                    height={300} />
                   <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-web">Web</div>
                 </div>

@@ -6,8 +6,8 @@ import Image from 'next/image';
 
 
 function Habitudes() {
-  const [isImageEnlarged, setIsImageEnlarged] = useState(false);
 
+  
   return (
     <div className="project-container">
       {/* Background animated blobs */}
@@ -28,9 +28,11 @@ function Habitudes() {
           {/* Project Image and Link Section */}
           <div className="project-image-container">
             <Image
-              src="../projets/habitudes.png"
+              src="/projets/habitudes.png"
               alt="Capture d&apos;écran du site de suivi d&apos;habitudes"
               className={`project-image `}
+              width={300} 
+              height={300}
             />
 
           </div>
