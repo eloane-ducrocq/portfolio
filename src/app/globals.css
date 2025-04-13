@@ -24,3 +24,258 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.navbar {
+  background-color: #0b0b0b;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 2px solid #25aaa5;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  width: 100%;
+}
+
+/* Container & Wrapper */
+.navbar-container {
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  width: 100%;
+}
+
+.navbar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.navbar-logo h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.logo-link {
+  color: #25aaa5;
+  text-decoration: none;
+}
+
+.logo-link:hover {
+  color: #2cc2bc;
+  transform: scale(1.05);
+}
+
+/* Desktop Nav */
+.desktop-nav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .desktop-nav {
+    display: block;
+  }
+}
+
+.nav-list {
+  display: flex;
+  align-self: center;
+  gap: 2.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: #e0e0e0;
+  padding: 0.5rem 0;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #25aaa5;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #25aaa5;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.contact-button {
+  background: linear-gradient(to right, #25aaa5, #0891b2); /* from-cyan-500 to-cyan-600 */
+  color: white;
+  padding: 0.6rem 1.25rem;
+  border-radius: 50px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+  border: 2px solid #25aaa5;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+
+.contact-button:hover {
+  background-color: transparent;
+  color: #25aaa5;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(37, 170, 165, 0.4);
+}
+
+/* Mobile Menu Button */
+.mobile-menu-button {
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #25aaa5;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.mobile-menu-button:hover {
+  background-color: rgba(37, 170, 165, 0.15);
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-button {
+    display: none;
+  }
+}
+
+.menu-icon {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+/* Mobile Navigation */
+.mobile-nav {
+  margin-top: 1rem;
+  padding: 0.5rem 0 0.75rem;
+  border-top: 1px solid rgba(37, 170, 165, 0.3);
+}
+
+.mobile-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-nav-link {
+  display: block;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.mobile-nav-link:hover {
+  background-color: rgba(37, 170, 165, 0.15);
+  color: #25aaa5;
+  padding-left: 1.25rem;
+}
+
+.mobile-contact-button {
+  display: block;
+  background-color: #25aaa5;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-align: center;
+  margin-top: 0.5rem;
+  border: 2px solid #25aaa5;
+}
+
+.mobile-contact-button:hover {
+  background-color: transparent;
+  color: #25aaa5;
+}
+
+/* Animation pour le menu mobile */
+.mobile-nav {
+  animation: slideDown 0.3s ease-out forwards;
+  transform-origin: top center;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Style actif pour les liens de navigation */
+.nav-link.active, .mobile-nav-link.active {
+  color: #25aaa5;
+  font-weight: 600;
+}
+
+.nav-link.active::after {
+  width: 100%;
+}
+
+/* Responsive ajustements */
+@media (max-width: 767px) {
+  .navbar-container {
+    padding: 0.75rem 1rem;
+  }
+  
+  .navbar-logo h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar-container {
+    padding: 0.75rem 2rem;
+  }
+  
+  .nav-list {
+    gap: 3rem;
+  }
+}
+
+/* Effet de scintillement subtil pour la bordure */
+@keyframes borderGlow {
+  0% {
+    border-bottom-color: #25aaa5;
+  }
+  50% {
+    border-bottom-color: #2cc2bc;
+  }
+  100% {
+    border-bottom-color: #25aaa5;
+  }
+}
+
+.navbar:hover {
+  animation: borderGlow 3s infinite ease-in-out;
+}

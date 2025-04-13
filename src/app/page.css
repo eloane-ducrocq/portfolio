@@ -24,6 +24,7 @@
 ;
   flex-direction: column;
   justify-self: center;
+  height: fit-content;
 }
 
 
@@ -250,7 +251,20 @@
   margin-bottom: 0px;
 }
 
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
+.fade-in-up {
+  animation: fadeInUp 1s ease-out forwards;
+}
 
 
 @media (max-width: 1200px) and (min-width: 1100px) {
@@ -416,6 +430,10 @@
     
   }
 
+  img {
+    width: auto;
+  }
+
   .Accueil .object-contain {
     margin-right: 40px;
 
@@ -474,7 +492,14 @@
     width: auto;
   }
 }
-@media (max-width: 470px) {
+
+@media (max-width: 470px) and (min-width: 397px){
+  img {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 397px) {
   .projets-grid {
     display: flex;
     flex-direction: column;
@@ -510,8 +535,9 @@
     font-size: 2.5vw;
     padding: 0.8vw 2vw;
     top: 1vw;
-    left: 1vw;
-  }
+    right: 2vw;
+    width: 23px;
+}
 
   .projet-title {
     font-size: 20px;
@@ -554,4 +580,95 @@
   .nouveau-projet-plus {
     font-size: 9vw;
   }
+
+  img {
+    height: 40vh;
+  }
 }
+
+
+@media (max-height: 600px)  and (min-height: 459px)  {
+  .Accueil {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  #photo {
+    height: 87vh;
+  }
+
+  
+.Accueil button {
+  font-size: 0.78rem;
+  padding: 0.6rem 1rem;
+}
+
+
+
+
+  #textAccueil h1 {
+    font-size: 2rem; /* réduit taille du titre */
+  }
+
+  #textAccueil {
+    margin-top: -2vh;
+  }
+
+  #textAccueil h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+
+  #textAccueil p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+
+
+}
+
+
+@media (max-height: 459px)  {
+
+  #textAccueil {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.Accueil button {
+  font-size: 0.75rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.Accueil button a {
+  display: block;
+  text-align: center;
+}
+
+#textAccueil h1 {
+  font-size: 2rem; /* réduit taille du titre */
+}
+
+
+#photo {
+  height: 87vh;
+}
+
+
+#textAccueil h2 {
+  font-size: 1.5rem;
+}
+
+#textAccueil p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+  
+
+
+}
+
+
+

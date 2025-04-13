@@ -72,6 +72,11 @@ p {
   animation: fadeInUp 1.2s ease-out both;
 }
 
+/* element.style {
+  display: flex
+;
+  flex-direction: column; */
+
 /* Animation de fadeIn */
 @keyframes fadeIn {
   0% {
@@ -99,7 +104,7 @@ img {
 
 @media (max-width: 600px) and (min-width:463px){
   p {
-  font-size: 3vw;
+  font-size: 2.5vw;
   max-width: max-content;
 }
 h1 {
@@ -111,7 +116,8 @@ h2 {
 
 }
 h3 {
-  font-size: 4.5vw;
+  font-size: 4vw;
+  margin-bottom: 10px;
 
 }
 
@@ -145,6 +151,8 @@ height: 2vh;
   h3 {
     font-size: 4.5vw;
   
+    margin-bottom: 10px;
+
   }
   
 

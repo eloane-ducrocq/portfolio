@@ -6,14 +6,14 @@ import "./page.css";
 
 export default function Home() {
   return (
-    <div className="h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory">
+    <div className="projets-section fade-in-up h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory">
       <section className="relative h-screen snap-start overflow-hidden bg-gradient-to-br from-[#0b0b0b] via-[#111111] to-[#0b0b0b] text-white overflow-hidden Accueil">
 
         <div className="absolute top-[-100px] left-[-100px] w-60 h-60 bg-[#25aaa5] rounded-full filter blur-2xl opacity-40 animate-blob1"></div>
         <div className="absolute bottom-[-80px] right-[-100px] w-80 h-80 bg-[#25aaa5] rounded-full filter blur-3xl opacity-30 animate-blob2"></div>
 
         <main className="relative container mx-auto p-4">
-          <div id="accueilBottom" className="flex flex-row items-center justify-between p-6 bg-gradient-to-r rounded-lg shadow-lg ">
+          <div id="accueilBottom" className="flex flex-row items-center justify-between p-6 bg-gradient-to-r rounded-lg">
             <div id="textAccueil" className="basis-[50%] ">
               <h1 className="text-[64px] font-bold text-[#ffffff] leading-tight mb-[-19px]">
                 Eloane Ducrocq
@@ -50,8 +50,8 @@ export default function Home() {
                 src="/photos/Photo_Ducrocq_Eloane-removebg-Copie.png"
                 alt="photo profil"
                 className="object-contain h-[92vh]"
-                width={300}
-                height={300}
+                width={510}
+                height={510}
               />
             </div>
           </div>

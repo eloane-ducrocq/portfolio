@@ -451,7 +451,7 @@ strong {
   text-align: center;
 }
 
-.contact-button {
+.contactButton {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -465,7 +465,7 @@ strong {
   transition: all 0.3s ease;
 }
 
-.contact-button:hover {
+.contactButton:hover {
   background: linear-gradient(to right, #22d3ee, #06b6d4); /* from-cyan-400 to-cyan-500 */
 }
 
