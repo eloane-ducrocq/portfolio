@@ -15,7 +15,7 @@ function SuiviCheques() {
 
       <div className="content-wrapper">
         <div className="project-header animate-fadeInUp">
-          <h1>DÉVELOPPEMENT D'UN SITE DE SUIVI DE CHÈQUES FULL-STACK (2025)</h1>
+          <h1>DÉVELOPPEMENT D&apos;UN SITE DE SUIVI DE CHÈQUES FULL-STACK (2025)</h1>
           <p className="project-meta">Par Eloane et 3 autres membres / Mars 2025</p>
 
           <div className="project-image-container">
@@ -96,7 +96,7 @@ function SuiviCheques() {
             <div className="info-card">
               <h2>🎮 Concept du Site</h2>
               <p>
-                Le site permet la création, la visualisation et la modification de chèques, ainsi que l&apos;ajout et la gestion d'utilisateurs. Il offre aussi la possibilité d&apos;ajouter, modifier et gérer des structures. Chaque utilisateur a un accès différencié selon son rôle, avec des pages et fonctionnalités adaptées. L&apos;ensemble repose sur une API robuste, garantissant un fonctionnement fluide et une structure solide.
+                Le site permet la création, la visualisation et la modification de chèques, ainsi que l&apos;ajout et la gestion d&apos;utilisateurs. Il offre aussi la possibilité d&apos;ajouter, modifier et gérer des structures. Chaque utilisateur a un accès différencié selon son rôle, avec des pages et fonctionnalités adaptées. L&apos;ensemble repose sur une API robuste, garantissant un fonctionnement fluide et une structure solide.
               </p>
             </div>
           </div>
@@ -139,7 +139,7 @@ function SuiviCheques() {
           <div className="info-card">
             <h2>📝 Conclusion</h2>
             <p>
-              Ce projet nous a permis de plonger dans le monde professionnel du télétravail et de l'automatisation. Il nous a appris à travailler efficacement en équipe sur un projet complet, tout en respectant les contraintes techniques et temporelles. Il a renforcé nos compétences en front-end, back-end, mais surtout en gestion de projet et en communication.
+              Ce projet nous a permis de plonger dans le monde professionnel du télétravail et de l&apos;automatisation. Il nous a appris à travailler efficacement en équipe sur un projet complet, tout en respectant les contraintes techniques et temporelles. Il a renforcé nos compétences en front-end, back-end, mais surtout en gestion de projet et en communication.
             </p>
           </div>
         </div>

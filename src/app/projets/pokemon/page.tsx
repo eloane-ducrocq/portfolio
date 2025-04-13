@@ -122,7 +122,7 @@ function Pokemon() {
               </div>
               <div className="objective-item">
                 <div className="objective-icon">🧪</div>
-                <p>Ajout d'objets, d'effets et des concepts de forces et faiblesses aux pokemons
+                <p>Ajout d&apos;objets, d&apos;effets et des concepts de forces et faiblesses aux pokemons
                 </p>
               </div>
             </div>
@@ -131,7 +131,7 @@ function Pokemon() {
           <div className="info-card">
             <h2>🧩 Difficultés rencontrées</h2>
             <p>
-              Le plus grand défi a été le temps très limité et la quantité de tâches à accomplir dans un délai aussi court. La gestion des liens entre les différents types de Pokémon, leurs attaques et les effets visuels a également été un point crucial à maîtriser. L'équilibrage des attaques et leur efficacité, en particulier en fonction des types, a nécessité de nombreux ajustements.
+              Le plus grand défi a été le temps très limité et la quantité de tâches à accomplir dans un délai aussi court. La gestion des liens entre les différents types de Pokémon, leurs attaques et les effets visuels a également été un point crucial à maîtriser. L&apos;équilibrage des attaques et leur efficacité, en particulier en fonction des types, a nécessité de nombreux ajustements.
             </p>
           </div>
 

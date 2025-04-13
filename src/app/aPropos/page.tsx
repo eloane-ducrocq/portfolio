@@ -1,7 +1,6 @@
 import React from 'react';
 import Carousel from "../carousel";
 import './page.css';
-import Image from 'next/image';
 
 function Page() {
   return (
@@ -27,10 +26,10 @@ function Page() {
           <div className="space-y-6 text-lg leading-relaxed max-w-3xl mx-auto animate-fadeIn">
             <p className="drop-shadow-sm">
               Actuellement en première année de développement informatique à la
-              <strong className="text-[#25aaa5]"> Coda School</strong>, je suis une étudiante de 18 ans passionnée par le développement informatique. Chaque jour, j’explore de nouveaux outils et langages pour enrichir mes compétences et bâtir une solide expérience dans ce domaine.
+              <strong className="text-[#25aaa5]"> Coda School</strong>, je suis une étudiante de 18 ans passionnée par le développement informatique. Chaque jour, j&apos;explore de nouveaux outils et langages pour enrichir mes compétences et bâtir une solide expérience dans ce domaine.
             </p>
             <p className="drop-shadow-sm">
-              Pour l’année <strong className="text-[#25aaa5]">2025-2026</strong>, je recherche une alternance en développement informatique. Bien que ouverte à différentes opportunités, je porte un intérêt particulier à la conception d’applications et de sites web, c'est à dire Front-End. Où je pourrais mettre en pratique et approfondir mes connaissances.
+              Pour l&apos;année <strong className="text-[#25aaa5]">2025-2026</strong>, je recherche une alternance en développement informatique. Bien que ouverte à différentes opportunités, je porte un intérêt particulier à la conception d&apos;applications et de sites web, c'est à dire Front-End. Où je pourrais mettre en pratique et approfondir mes connaissances.
             </p>
             <p className="drop-shadow-sm">
               Motivée, curieuse et créative, je souhaite intégrer une équipe dynamique afin de contribuer activement à des projets innovants tout en évoluant aux côtés de professionnels expérimentés.
@@ -58,10 +57,10 @@ function Page() {
 
           <div className="max-w-3xl mx-auto space-y-4 text-center animate-fadeIn">
             <p className="text-lg leading-relaxed drop-shadow-sm">
-              Au fil du temps, j’ai découvert et utilisé de nombreuses technologies et outils qui ont marqué mon apprentissage et facilité mon travail. Que ce soit pour le développement web, la gestion de projets ou le travail en équipe, chacun a son importance et son utilité.
+              Au fil du temps, j&apos;ai découvert et utilisé de nombreuses technologies et outils qui ont marqué mon apprentissage et facilité mon travail. Que ce soit pour le développement web, la gestion de projets ou le travail en équipe, chacun a son importance et son utilité.
             </p>
             <p className="text-lg leading-relaxed drop-shadow-sm">
-              Cette liste, en constante évolution, reflète les technologies et outils que j’ai appris et utilisés au fil de mon parcours.
+              Cette liste, en constante évolution, reflète les technologies et outils que j&apos;ai appris et utilisés au fil de mon parcours.
             </p>
           </div>
 

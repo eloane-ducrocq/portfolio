@@ -98,7 +98,7 @@ function Grow() {
             <div className="info-card">
               <h2>🎮 Concept du jeu</h2>
               <p>
-                "Grow" est un jeu 2D d&apos;arcade où l&apos;on incarne une plante qui grandit en attrapant les gouttes. Plus on grandit, plus le jeu accélère. Attention aux escargots : les attraper vous fait perdre des cœurs ! Un gameplay simple basé sur les réflexes, l'évolution et l&apos;adaptation.
+              &quot;Grow&quot; est un jeu 2D d&apos;arcade où l&apos;on incarne une plante qui grandit en attrapant les gouttes. Plus on grandit, plus le jeu accélère. Attention aux escargots : les attraper vous fait perdre des cœurs ! Un gameplay simple basé sur les réflexes, l&apos;évolution et l&apos;adaptation.
               </p>
             </div>
           </div>

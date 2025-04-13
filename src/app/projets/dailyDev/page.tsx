@@ -61,7 +61,7 @@ function DailyDev() {
             <div className="info-card">
               <h2>📝 Contexte du projet</h2>
               <p>
-                L&apos;objectif était de reproduire 2 à 3 pages d&apos;un site Internet. J'ai choisis le site Daily Dev, où j&apos;ai du faire 2 pages : la page d&apos;accueil et la page de tags. Le challenge consistait à respecter au maximum le design original tout en développant les pages en HTML et CSS en seulement 5 jours.
+                L&apos;objectif était de reproduire 2 à 3 pages d&apos;un site Internet. J&apos;ai choisis le site Daily Dev, où j&apos;ai du faire 2 pages : la page d&apos;accueil et la page de tags. Le challenge consistait à respecter au maximum le design original tout en développant les pages en HTML et CSS en seulement 5 jours.
               </p>
             </div>
           </div>
