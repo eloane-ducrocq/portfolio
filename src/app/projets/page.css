@@ -33,6 +33,62 @@ h1 {
   background-clip: text;
 }
 
+@media (max-width: 800px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem !important; /* Par exemple, 20px */
+  }
+
+  p, span {
+    font-size: 0.95rem !important; /* Par exemple, 15px */
+  }
+
+  .project-meta {
+    font-size: 0.9rem !important;
+  }
+
+  .project-card-title {
+    font-size: 1rem !important;
+  }
+
+  .project-card-tech {
+    font-size: 0.85rem !important;
+  }
+
+  .contactButton {
+    font-size: 1rem !important;
+  }
+
+  .bullet-item span {
+    font-size: 0.95rem !important;
+  }
+
+  .objective-item p {
+    font-size: 0.95rem !important;
+  }
+
+  .contactButton { 
+    font-size: 0.8rem !important;
+    width: 66vw;
+    height: 6vh;
+  }
+
+  .external-link {
+    font-size: 0.8rem !important;
+    width: 49vw;
+    height: 6vh;
+  }
+
+  .tech-tag {
+    padding: 0.15rem 0.55rem !important;
+    font-size: 0.8rem !important;
+  }
+}
+
+
 @media (min-width: 768px) {
   h1 {
     font-size: 3rem;

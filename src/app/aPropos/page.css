@@ -6,7 +6,6 @@ body {
 p {
   text-align: justify;
 }
-
 @keyframes blob1 {
   0% { transform: translate(0, 0) scale(1); }
   33% { transform: translate(40px, -30px) scale(1.1); }
@@ -17,6 +16,7 @@ p {
   animation: blob1 10s infinite ease-in-out;
 }
 
+/* Animation Blob 2 */
 @keyframes blob2 {
   0% { transform: translate(0, 0) scale(1); }
   33% { transform: translate(-30px, 40px) scale(0.9); }
@@ -27,6 +27,7 @@ p {
   animation: blob2 12s infinite ease-in-out;
 }
 
+/* Animation Blob 3 */
 @keyframes blob3 {
   0% { transform: translate(0, 0) scale(1); }
   33% { transform: translate(20px, 50px) scale(1.1); }
@@ -37,6 +38,7 @@ p {
   animation: blob3 14s infinite ease-in-out;
 }
 
+/* Animation Blob 4 */
 @keyframes blob4 {
   0% { transform: translate(0, 0) scale(1); }
   33% { transform: translate(-50px, 20px) scale(1.05); }
@@ -47,6 +49,7 @@ p {
   animation: blob4 16s infinite ease-in-out;
 }
 
+/* Animation Blob 5 */
 @keyframes blob5 {
   0% { transform: translate(0, 0) scale(1); }
   33% { transform: translate(30px, -40px) scale(0.9); }
@@ -57,43 +60,13 @@ p {
   animation: blob5 18s infinite ease-in-out;
 }
 
-/* Animation de fadeInUp */
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.animate-fadeInUp {
-  animation: fadeInUp 1.2s ease-out both;
-}
-
-/* element.style {
-  display: flex
-;
-  flex-direction: column; */
-
-/* Animation de fadeIn */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.animate-fadeIn {
-  animation: fadeIn 1.5s ease-out both;
-}
-
-
 @media (max-width: 877px) and (min-width:600px){
   p {
 max-width: max-content;
+}
+
+#CARROUSEL {
+margin-bottom: -40px;
 }
 
 img {
@@ -111,6 +84,10 @@ h1 {
   font-size: 7vw;
 
 }
+
+#CARROUSEL {
+  margin-bottom: -50px;
+  }
 h2 {
   font-size: 4vw;
 
@@ -136,6 +113,9 @@ height: 2vh;
 
 @media (max-width: 463px) {
   
+  #CARROUSEL {
+    margin-bottom: -50px;
+    }
   p {
     font-size: 3vw;
     max-width: max-content;

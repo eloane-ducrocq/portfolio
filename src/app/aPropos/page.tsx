@@ -51,7 +51,7 @@ function Page() {
             </p>
           </div>
 
-          <div className="mt-8">
+          <div id='CARROUSEL' className="mt-8">
             <Carousel />
           </div>
         </section>

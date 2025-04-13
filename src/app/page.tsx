@@ -6,12 +6,14 @@ import "./page.css";
 
 export default function Home() {
   return (
-    <div className="projets-section fade-in-up h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory">
-      <section className="relative h-screen snap-start overflow-hidden bg-gradient-to-br from-[#0b0b0b] via-[#111111] to-[#0b0b0b] text-white overflow-hidden Accueil">
+    <div className="h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory overflow-x-hidden  bg-gradient-to-br from-[#0b0b0b] via-[#111111] to-[#0b0b0b]">
 
-        <div className="absolute top-[-100px] left-[-100px] w-60 h-60 bg-[#25aaa5] rounded-full filter blur-2xl opacity-40 animate-blob1"></div>
-        <div className="absolute bottom-[-80px] right-[-100px] w-80 h-80 bg-[#25aaa5] rounded-full filter blur-3xl opacity-30 animate-blob2"></div>
+      <div className="absolute top-[-150px] right-[-100px] w-72 h-72 bg-[#25aaa5] rounded-full filter blur-3xl opacity-40 animate-blob1" />
+      <div className="absolute top-[-50px] left-[-150px] w-48 h-48 bg-[#25aaa5] rounded-full filter blur-3xl opacity-20 animate-blob3" />
+      <div className="absolute bottom-[-120px] right-[-150px] w-80 h-80 bg-[#25aaa5] rounded-full filter blur-3xl opacity-50 animate-blob4" />
+      <div className="absolute top-[20%] left-[-100px] w-60 h-60 bg-[#25aaa5] rounded-full filter blur-2xl opacity-35 animate-blob5" />
 
+      <section className="relative h-screen snap-start overflow-hidden text-white overflow-hidden Accueil">
         <main className="relative container mx-auto p-4">
           <div id="accueilBottom" className="flex flex-row items-center justify-between p-6 bg-gradient-to-r rounded-lg">
             <div id="textAccueil" className="basis-[50%] ">
@@ -59,7 +61,7 @@ export default function Home() {
       </section>
 
 
-      <section id="projets" className="min-h-screen snap-start bg-[#111] px-8 py-12 text-white ">
+      <section id="projets" className=" min-h-screen snap-start px-8 py-12 text-white ">
         <h3 className="projets-titre">
           <span className="projets-titre-text">
             Mes Projets
@@ -208,7 +210,7 @@ export default function Home() {
 
 
 
-            <a className="group">
+            <a className="group mb-[-26px]">
               <div className="projet-card nouveau-projet-card">
                 <div className="projet-content">
                   <div className="nouveau-projet-icon">

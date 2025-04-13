@@ -15,7 +15,7 @@ interface LogoCarouselProps {
 
 const LogoCarousel: React.FC<LogoCarouselProps> = ({ logos }) => {
   return (
-    <div className="w-full py-8">
+    <div className="w-full py-8 CAROUSEL">
       <div className="overflow-hidden">
         <Swiper
           modules={[Autoplay]}
