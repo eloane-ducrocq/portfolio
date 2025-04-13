@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from "../carousel";
 import './page.css';
+import Image from 'next/image';
 
 function Page() {
   return (
@@ -34,6 +35,19 @@ function Page() {
             <p className="drop-shadow-sm">
               Motivée, curieuse et créative, je souhaite intégrer une équipe dynamique afin de contribuer activement à des projets innovants tout en évoluant aux côtés de professionnels expérimentés.
             </p>
+            <div className="space-y animate-fadeInUp delay-800">
+              <div className="info-card">
+                <a
+                  href="/photos/CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block text-[#25aaa5] hover:text-white hover:text-[#00000] border border-[#25aaa5] px-4 py-2 rounded-lg transition-all duration-300 ease-in-out"
+                >
+                  📎 Consulter mon CV (PDF)
+                </a>
+              </div>
+
+            </div>
           </div>
         </section>
 
