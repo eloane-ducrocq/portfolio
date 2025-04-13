@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Autoplay } from 'swiper/modules';
+import Image from 'next/image';
 
 import '../aPropos/page.css';
 
@@ -28,11 +29,13 @@ const LogoCarousel: React.FC<LogoCarouselProps> = ({ logos }) => {
         >
           {logos.map((logo, index) => (
             <SwiperSlide key={index}>
-              <img
+              <Image
                 src={logo}
                 alt={`logo-${index}`}
                 className="mx-auto max-w-[50px]"
                 style={{ filter: 'invert(1) grayscale(100%)' }}
+                width={50}
+                height={50}
               />
             </SwiperSlide>
           ))}

@@ -1,7 +1,6 @@
 'use client';
 
 import '../page.css';
-import { useState } from 'react';
 import Image from 'next/image';
 
 
@@ -22,7 +21,7 @@ function Habitudes() {
       <div className="content-wrapper">
         {/* Project Header */}
         <div className="project-header animate-fadeInUp">
-          <h1>Site de Suivi d'Habitudes</h1>
+          <h1>Site de Suivi d&apos;Habitudes</h1>
           <p className="project-meta">Par Eloane / Mars 2025</p>
 
           {/* Project Image and Link Section */}
@@ -118,11 +117,11 @@ function Habitudes() {
               </div>
               <div className="objective-item">
                 <div className="objective-icon">🗓️</div>
-                <p>Création d'un calendrier interactif pour suivre les habitudes au quotidien</p>
+                <p>Création d&apos;un calendrier interactif pour suivre les habitudes au quotidien</p>
               </div>
               <div className="objective-item">
                 <div className="objective-icon">🎨</div>
-                <p>Conception d'une interface simple et épurée en HTML/CSS</p>
+                <p>Conception d&apos;une interface simple et épurée en HTML/CSS</p>
               </div>
               <div className="objective-item">
                 <div className="objective-icon">📊</div>
