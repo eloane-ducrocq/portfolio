@@ -29,7 +29,7 @@ function Page() {
               <strong className="text-[#25aaa5]"> Coda School</strong>, je suis une étudiante de 18 ans passionnée par le développement informatique. Chaque jour, j&apos;explore de nouveaux outils et langages pour enrichir mes compétences et bâtir une solide expérience dans ce domaine.
             </p>
             <p className="drop-shadow-sm">
-              Pour l&apos;année <strong className="text-[#25aaa5]">2025-2026</strong>, je recherche une alternance en développement informatique. Bien que ouverte à différentes opportunités, je porte un intérêt particulier à la conception d&apos;applications et de sites web, c'est à dire Front-End. Où je pourrais mettre en pratique et approfondir mes connaissances.
+              Pour l&apos;année <strong className="text-[#25aaa5]">2025-2026</strong>, je recherche une alternance en développement informatique. Bien que ouverte à différentes opportunités, je porte un intérêt particulier à la conception d&apos;applications et de sites web, c&apos;est à dire Front-End. Où je pourrais mettre en pratique et approfondir mes connaissances.
             </p>
             <p className="drop-shadow-sm">
               Motivée, curieuse et créative, je souhaite intégrer une équipe dynamique afin de contribuer activement à des projets innovants tout en évoluant aux côtés de professionnels expérimentés.
