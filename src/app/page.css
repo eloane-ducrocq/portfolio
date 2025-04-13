@@ -18,6 +18,12 @@
   animation: blob2 14s infinite ease-in-out;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
+
 #projets {
   margin: 0px;
   display: flex

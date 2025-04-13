@@ -6,7 +6,8 @@ import "./page.css";
 
 export default function Home() {
   return (
-    <div className="w-full max-w-[100vw] overflow-x-hidden scroll-smooth snap-y snap-mandatory bg-gradient-to-br from-[#0b0b0b] via-[#111111] to-[#0b0b0b]">
+    <div className="min-w-full overflow-x-hidden scroll-smooth snap-y snap-mandatory bg-gradient-to-br from-[#0b0b0b] via-[#111111] to-[#0b0b0b]">
+
 
       <div className="absolute top-[-150px] right-[-100px] w-72 h-72 bg-[#25aaa5] rounded-full filter blur-3xl opacity-40 animate-blob1" />
       <div className="absolute top-[-50px] left-[-150px] w-48 h-48 bg-[#25aaa5] rounded-full filter blur-3xl opacity-20 animate-blob3" />
