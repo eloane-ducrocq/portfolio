@@ -23,6 +23,11 @@ body {
   overflow-x: hidden;
 }
 
+img {
+  width: auto !important;
+}
+
+
 #projets {
   margin: 0px;
   display: flex
@@ -197,7 +202,7 @@ body {
   font-weight: 500;
 }
 
-.tag-POO-tech { background-image: linear-gradient(to right, #c13cee, #c13cee); }
+.tag-POO-tech { background-image: linear-gradient(to right, #c13cee, #c043ea); }
 .tag-java-tech { background-image: linear-gradient(to right, #3b82f6, #2563eb); }
 .tag-javafx-tech { background-image: linear-gradient(to right, #facc15, #eab308); }
 .tag-CSS-tech { background-image: linear-gradient(to right, #f97316, #ea580c); }
@@ -206,10 +211,10 @@ body {
 .tag-MVC-tech { background-image: linear-gradient(to right, #eab308, #ca8a04); }
 .tag-django-tech { background-image: linear-gradient(to right, #3b82f6, #2563eb); }
 .tag-Gdevelop-tech { background-image: linear-gradient(to right, #ef4444, #dc2626); }
-.tag-JS-tech { background-image: linear-gradient(to right, #facc15, #eab308); }
-.tag-python-tech { background-image: linear-gradient(to right, #42ab68,#42ab68); }
-.tag-sql-tech { background-image: linear-gradient(to right, #bf2a9c,#bf2a9c); }
-.tag-api-tech { background-image: linear-gradient(to right, #30d5d0,#30d5d0); }
+.tag-JS-tech { background-image: linear-gradient(to right, #ff003c, #f60941); }
+.tag-python-tech { background-image: linear-gradient(to right, #42ab68,#58c580); }
+.tag-sql-tech { background-image: linear-gradient(to right, #bf2a9c,#ca34a7); }
+.tag-api-tech { background-image: linear-gradient(to right, #30d5d0,#38dfda); }
 
 
 .nouveau-projet-card {
@@ -276,6 +281,7 @@ body {
 
 
 @media (max-width: 1200px) and (min-width: 1100px) {
+
   .textAccueil {
     margin-left: 0px;
     text-align: right;

@@ -9,10 +9,13 @@ export default function Home() {
     <div className="min-w-full overflow-x-hidden scroll-smooth snap-y snap-mandatory bg-gradient-to-br from-[#0b0b0b] via-[#111111] to-[#0b0b0b]">
 
 
-      <div className="absolute top-[-150px] right-[-100px] w-72 h-72 bg-[#25aaa5] rounded-full filter blur-3xl opacity-40 animate-blob1" />
-      <div className="absolute top-[-50px] left-[-150px] w-48 h-48 bg-[#25aaa5] rounded-full filter blur-3xl opacity-20 animate-blob3" />
-      <div className="absolute bottom-[-120px] right-[-150px] w-80 h-80 bg-[#25aaa5] rounded-full filter blur-3xl opacity-50 animate-blob4" />
-      <div className="absolute top-[20%] left-[-100px] w-60 h-60 bg-[#25aaa5] rounded-full filter blur-2xl opacity-35 animate-blob5" />
+      <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden">
+
+        <div className="absolute top-[-150px] right-[-100px] w-72 h-72 bg-[#25aaa5] rounded-full filter blur-3xl opacity-40 animate-blob1" />
+        <div className="absolute top-[-50px] left-[-150px] w-48 h-48 bg-[#25aaa5] rounded-full filter blur-3xl opacity-20 animate-blob3" />
+        <div className="absolute bottom-[-120px] right-[-150px] w-80 h-80 bg-[#25aaa5] rounded-full filter blur-3xl opacity-50 animate-blob4" />
+        <div className="absolute top-[20%] left-[-100px] w-60 h-60 bg-[#25aaa5] rounded-full filter blur-2xl opacity-35 animate-blob5" />
+      </div>
 
       <section className="relative h-screen snap-start overflow-hidden text-white overflow-hidden Accueil">
         <main className="relative container mx-auto p-4">
@@ -42,9 +45,10 @@ export default function Home() {
                   Mes Projets
                 </button>
 
-                <button className="border-2 border-[#25aaa5] text-[#25aaa5] font-semibold py-3 px-6 rounded-xl transition-all duration-300 hover:border-[#1e938f] hover:text-[#1e938f] hover:bg-[#25aaa5] hover:text-white focus:outline-none active:bg-transparent">
-                  <a href="/contact">Me Contacter</a>
+                <a href="/contact"><button className="border-2 border-[#25aaa5] text-[#25aaa5] font-semibold py-3 px-6 rounded-xl transition-all duration-300 hover:border-[#1e938f] hover:text-[#1e938f] hover:bg-[#25aaa5] hover:text-white focus:outline-none active:bg-transparent">
+                  Me Contacter
                 </button>
+                </a>
               </div>
             </div>
 
@@ -78,7 +82,7 @@ export default function Home() {
                     width={300}
                     height={300} />
                   <div className="projet-image-overlay"></div>
-                  <div className="projet-tag tag-jeu">jeu</div>
+                  <div className="projet-tag tag-jeu">Jeu</div>
                 </div>
                 <div className="projet-content flex flex-col flex-grow">
                   <div className="projet-header">

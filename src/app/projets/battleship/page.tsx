@@ -18,7 +18,6 @@ function Battleship() {
         <div className="project-header animate-fadeInUp">
           <h1>Jeu de Bataille Navale en Local</h1>
           <p className="project-meta">Par Eloane et Nawfel / Mars 2025</p>
-a
           <div className="project-image-container">
             <Image
               src="/projets/battleship.png"
