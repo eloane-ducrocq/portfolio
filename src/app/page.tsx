@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <div className="min-w-full overflow-x-hidden scroll-smooth snap-y snap-mandatory bg-gradient-to-br from-[#0b0b0b] via-[#111111] to-[#0b0b0b]">
 
-
       <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden">
 
         <div className="absolute top-[-150px] right-[-100px] w-72 h-72 bg-[#25aaa5] rounded-full filter blur-3xl opacity-40 animate-blob1" />
@@ -45,7 +44,7 @@ export default function Home() {
                   Mes Projets
                 </button>
 
-                <a href="/contact"><button className="border-2 border-[#25aaa5] text-[#25aaa5] font-semibold py-3 px-6 rounded-xl transition-all duration-300 hover:border-[#1e938f] hover:text-[#1e938f] hover:bg-[#25aaa5] hover:text-white focus:outline-none active:bg-transparent">
+                <a href="/contact"><button className="border-2 border-[#25aaa5] text-[#25aaa5] font-semibold py-3 px-6 rounded-xl transition-all duration-300 hover:border-black hover:text-[#1e938f] hover:bg-white hover:text-black focus:outline-none ">
                   Me Contacter
                 </button>
                 </a>
@@ -81,7 +80,6 @@ export default function Home() {
                   <Image src="/projets/pokemon.png" alt="pokemon" className="projet-image"
                     width={300}
                     height={300} />
-                  <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-jeu">Jeu</div>
                 </div>
                 <div className="projet-content flex flex-col flex-grow">
@@ -93,9 +91,9 @@ export default function Home() {
                     Création d&apos;un jeu Pokémon combinant la sélection de Pokemon jusqu&apos;au combat contre une IA.
                   </p>
                   <div className="projet-technologies mt-auto">
-                    <span className="technologie-tag tag-java-tech">Java</span>
-                    <span className="technologie-tag tag-javafx-tech">JavaFX</span>
-                    <span className="technologie-tag tag-POO-tech">POO</span>
+                    <span className="tag tag-java-tech">Java</span>
+                    <span className="tag tag-javafx-tech">JavaFX</span>
+                    <span className="tag tag-POO-tech">POO</span>
                   </div>
                 </div>
               </div>
@@ -107,7 +105,6 @@ export default function Home() {
                   <Image src="/projets/grow.png" alt="grow" className="projet-image"
                     width={300}
                     height={300} />
-                  <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-mobile">Mobile</div>
                 </div>
                 <div className="projet-content flex flex-col flex-grow">
@@ -117,7 +114,7 @@ export default function Home() {
                   </div>
                   <p className="projet-description mb-4">Réalisation d&apos;un jeu NoCode en 48 heures</p>
                   <div className="projet-technologies mt-auto">
-                    <span className="technologie-tag tag-Gdevelop-tech">Gdevelop</span>
+                    <span className="tag tag-Gdevelop-tech">Gdevelop</span>
                   </div>
                 </div>
               </div>
@@ -129,7 +126,6 @@ export default function Home() {
                   <Image src="/projets/habitudes.png" alt="habitudes" className="projet-image"
                     width={300}
                     height={300} />
-                  <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-purple">Web</div>
                 </div>
                 <div className="projet-content flex flex-col flex-grow">
@@ -141,10 +137,10 @@ export default function Home() {
                     Création d&apos;un site web de suivi d&apos;habitudes quotidiennes avec statistiques, calendrier et visualisations des progrès pour atteindre les objectifs.
                   </p>
                   <div className="projet-technologies mt-auto">
-                    <span className="technologie-tag tag-JS-tech">Javascript</span>
-                    <span className="technologie-tag tag-HTML-tech">HTML</span>
-                    <span className="technologie-tag tag-CSS-tech">CSS</span>
-                    <span className="technologie-tag tag-MVC-tech">MVC</span>
+                    <span className="tag tag-JS-tech">Javascript</span>
+                    <span className="tag tag-HTML-tech">HTML</span>
+                    <span className="tag tag-CSS-tech">CSS</span>
+                    <span className="tag tag-MVC-tech">MVC</span>
                   </div>
                 </div>
               </div>
@@ -156,7 +152,6 @@ export default function Home() {
                   <Image src="/projets/battleship.png" alt="battleship" className="projet-image"
                     width={300}
                     height={300} />
-                  <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-jeu">Jeu</div>
                 </div>
                 <div className="projet-content flex flex-col flex-grow">
@@ -168,10 +163,10 @@ export default function Home() {
                     Jeu de bataille navale multijoueur avec interface moderne et IA avancée pour des parties stratégiques et immersives.
                   </p>
                   <div className="projet-technologies mt-auto">
-                    <span className="technologie-tag tag-JS-tech">JavaScript</span>
-                    <span className="technologie-tag tag-PHP-tech">PHP</span>
-                    <span className="technologie-tag tag-HTML-tech">HTML</span>
-                    <span className="technologie-tag tag-CSS-tech">CSS</span>
+                    <span className="tag tag-JS-tech">JavaScript</span>
+                    <span className="tag tag-PHP-tech">PHP</span>
+                    <span className="tag tag-HTML-tech">HTML</span>
+                    <span className="tag tag-CSS-tech">CSS</span>
                   </div>
                 </div>
               </div>
@@ -184,7 +179,6 @@ export default function Home() {
                   <Image src="/projets/dailyDev.png" alt="Daily Dev" className="projet-image"
                     width={300}
                     height={300} />
-                  <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-web">Web</div>
                 </div>
 
@@ -198,8 +192,8 @@ export default function Home() {
                   </p>
 
                   <div className="projet-technologies mt-auto">
-                    <span className="technologie-tag tag-HTML-tech">HTML</span>
-                    <span className="technologie-tag tag-CSS-tech">CSS</span>
+                    <span className="tag tag-HTML-tech">HTML</span>
+                    <span className="tag tag-CSS-tech">CSS</span>
                   </div>
                 </div>
               </div>
@@ -211,7 +205,6 @@ export default function Home() {
                   <Image src="/projets/cheques.png" alt="Suivi de Chèques" className="projet-image"
                     width={300}
                     height={300} />
-                  <div className="projet-image-overlay"></div>
                   <div className="projet-tag tag-web">Web Full-Stack</div>
                 </div>
 
@@ -225,13 +218,13 @@ export default function Home() {
                   </p>
 
                   <div className="projet-technologies mt-auto">
-                    <span className="technologie-tag tag-HTML-tech">HTML</span>
-                    <span className="technologie-tag tag-CSS-tech">CSS</span>
-                    <span className="technologie-tag tag-JS-tech">JavaScript</span>
-                    <span className="technologie-tag tag-django-tech">Django</span>
-                    <span className="technologie-tag tag-api-tech">API REST</span>
-                    <span className="technologie-tag tag-sql-tech">SQL</span>
-                    <span className="technologie-tag tag-python-tech">Python</span>
+                    <span className="tag tag-HTML-tech">HTML</span>
+                    <span className="tag tag-CSS-tech">CSS</span>
+                    <span className="tag tag-JS-tech">JavaScript</span>
+                    <span className="tag tag-django-tech">Django</span>
+                    <span className="tag tag-api-tech">API REST</span>
+                    <span className="tag tag-sql-tech">SQL</span>
+                    <span className="tag tag-python-tech">Python</span>
                   </div>
                 </div>
               </div>
@@ -241,7 +234,7 @@ export default function Home() {
               <div className="projet-card nouveau-projet-card">
                 <div className="projet-content">
                   <div className="nouveau-projet-icon">
-                    <span className="nouveau-projet-plus">+</span>
+                    <span className="nouveau-projet-plus">⏳</span>
                   </div>
                   <h4 className="nouveau-projet-title">Nouveau Projet</h4>
                   <p className="nouveau-projet-description">Un nouveau projet passionnant est en cours de développement. Restez à l&apos;écoute !</p>
