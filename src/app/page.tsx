@@ -51,13 +51,14 @@ export default function Home() {
               </div>
             </div>
 
-            <div id="photo" className="basis-[60%] items-end flex justify-end justify-content: right;">
+            <div className="basis-[60%] items-end flex justify-end justify-content: right;">
               <Image
                 src="/photos/Photo_Ducrocq_Eloane-removebg-Copie.png"
                 alt="photo profil"
+                id="photo"
                 className="object-contain h-[92vh]"
-                width={510}
-                height={510}
+                width={400}
+                height={400}
               />
             </div>
           </div>
