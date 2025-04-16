@@ -63,7 +63,7 @@ function Pokemon() {
             <div className="info-card">
               <h2>📝 Contexte du projet</h2>
               <p>
-                On devait créé un jeu Pokémo, avec des combats au tour par tour où le joueur affronte une IA. Le but était de concevoir un système stratégique, où chaque Pokémon a des caractéristiques unique, et où la gestion de l’équipe et le choix des attaques sont essentiel
+                On devait créé un jeu Pokémon, avec des combats au tour par tour où le joueur affronte une IA. Le but était de concevoir un système stratégique, où chaque Pokémon a des caractéristiques unique, et où la gestion de l’équipe et le choix des attaques sont essentiel
               </p>
             </div>
           </div>
@@ -102,7 +102,7 @@ function Pokemon() {
 
         <div className="space-y animate-fadeInUp delay-600 sectionBack">
           <div className="info-card">
-            <h2>🎯 Objectifs et réalisations</h2>
+            <h2>🎯 Fonctionnalités principales</h2>
             <div className="objectives-grid">
               <div className="objective-item">
                 <div className="objective-icon">🎯</div>
