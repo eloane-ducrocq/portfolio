@@ -32,68 +32,6 @@ h1 {
   background-clip: text;
 }
 
-@media (max-width: 800px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  h2 {
-    font-size: 1.25rem !important;
-  }
-
-  p, span {
-    font-size: 0.95rem !important; 
-  }
-
-  .project-meta {
-    font-size: 0.9rem !important;
-  }
-
-  .project-card-title {
-    font-size: 1rem !important;
-  }
-
-  .project-card-tech {
-    font-size: 0.85rem !important;
-  }
-
-  .contactButton {
-    font-size: 1rem !important;
-  }
-
-  .bullet-item span {
-    font-size: 0.95rem !important;
-  }
-
-  .objective-item p {
-    font-size: 0.95rem !important;
-  }
-
-  .contactButton { 
-    font-size: 0.8rem !important;
-    width: 66vw;
-    height: 6vh;
-  }
-
-  .external-link {
-    font-size: 0.8rem !important;
-    width: 49vw;
-    height: 6vh;
-  }
-
-  .tech-tag {
-    padding: 0.15rem 0.55rem !important;
-    font-size: 0.8rem !important;
-  }
-}
-
-
-@media (min-width: 768px) {
-  h1 {
-    font-size: 3rem;
-  }
-}
-
 h2 {
   font-size: 1.8rem;
   font-weight: 600;
@@ -350,11 +288,6 @@ strong {
   gap: 2rem;
 }
 
-@media (min-width: 768px) {
-  .grid-container {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
 .space-y {
   display: flex;
@@ -397,11 +330,6 @@ strong {
   gap: 1rem;
 }
 
-@media (min-width: 768px) {
-  .objectives-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
 .objective-item {
   display: flex;
@@ -431,18 +359,6 @@ strong {
   grid-template-columns: 1fr;
   gap: 1rem;
   margin-top: 1rem;
-}
-
-@media (min-width: 640px) {
-  .projects-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (min-width: 768px) {
-  .projects-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
 }
 
 .sectionBack {
@@ -529,4 +445,167 @@ strong {
 
 .delay-1000 {
   animation-delay: 1s;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem !important;
+  }
+
+  p, span {
+    font-size: 0.95rem !important; 
+  }
+
+  .project-meta {
+    font-size: 0.9rem !important;
+  }
+
+  .project-card-title {
+    font-size: 1rem !important;
+  }
+
+  .project-card-tech {
+    font-size: 0.85rem !important;
+  }
+
+  .contactButton {
+    font-size: 1rem !important;
+  }
+
+  .bullet-item span {
+    font-size: 0.95rem !important;
+  }
+
+  .objective-item p {
+    font-size: 0.95rem !important;
+  }
+
+  .contactButton { 
+    font-size: 0.8rem !important;
+    width: 66vw;
+    height: 6vh;
+  }
+
+  .external-link {
+    font-size: 1.4vw;
+    width: 20vw;
+    height: 4.5vh;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+
+  img {
+    width: 18px;
+  }
+
+  .tech-tag {
+    padding: 0.15rem 0.55rem !important;
+    font-size: 0.8rem !important;
+  }
+}
+
+@media (max-width: 648px) {
+  .external-link {
+    font-size: 1.3vw;
+    width: 19vw;
+    height: 4.1vh;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+
+  img {
+    width: 14px;
+  }
+}
+
+@media (max-width: 574px) {
+  .external-link {
+    font-size: 1.3vw;
+    width: 20vw;
+    height: 3.6vh;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  img {
+    width: 12px;
+  }
+}
+
+@media (max-width: 484px) {
+  .external-link {
+    font-size: 1.5vw;
+    width: 22vw;
+    height: 3.6vh;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  img {
+    width: 12px;
+  }
+}
+
+@media (max-width: 434px) {
+  .external-link {
+    font-size: 1.5vw;
+    width: 24vw;
+    height: 3.4vh;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+
+  }
+
+  img {
+    width: 12px;
+
+  }
+}
+
+@media (max-width: 360px) {
+  .external-link {
+    font-size: 1.7vw;
+    width: 28vw;
+    height: 3.4vh;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+
+  }
+
+  img {
+    width: 10px;
+
+  }
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .objectives-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 640px) {
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
