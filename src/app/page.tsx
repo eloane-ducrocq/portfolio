@@ -3,7 +3,8 @@
 import React from "react";
 import Image from "next/image";
 import "./page.css";
-import {ProjectsSection} from "../components/ProjectsSection";
+import {ProjectsSection} from "@/components/ProjectsSection";
+import {LANDING} from "@/constants/landing";
 
 export default function Home() {
     return (
@@ -26,17 +27,13 @@ export default function Home() {
                          className="flex flex-row items-center justify-between p-6 bg-gradient-to-r rounded-lg">
                         <div id="textAccueil" className="basis-[50%] ">
                             <h1 className="text-[64px] font-bold text-[#ffffff] leading-tight mb-[-19px]">
-                                Eloane Ducrocq
+                                {LANDING.name}
                             </h1>
                             <h2 className="text-[40px] font-medium text-[#25aaa5]">
-                                Développeuse Full-Stack
+                                {LANDING.title}
                             </h2>
                             <p className="text-gray-500 font-light text-[17px] leading-relaxed mb-6 mt-2">
-                                Curieuse et passionnée par la tech, j'ai exploré et utilisé différentes
-                                technologies au fil de mon parcours. Toujours en quête de nouveaux défis,
-                                je m'efforce d'élargir mes compétences et de repousser mes limites. J'aime
-                                relever des challenges, apprendre constamment et contribuer à des projets
-                                innovants.
+                                {LANDING.description}
                             </p>
                             <div className="flex gap-6 mt-4">
                                 <button
