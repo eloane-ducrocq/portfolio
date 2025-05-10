@@ -10,7 +10,7 @@ export default function ContactForm() {
     <div className="relative overflow-x-hidden">
       <div className="relative">
         <h1 className="text-[3rem] font-bold text-center mb-8 m-[10px]">
-          Me Contactez
+          Me Contacter
         </h1>
 
         <div className="absolute bottom-[-400px] left-[-100px] w-60 h-60 bg-[#25aaa5] rounded-full filter blur-2xl opacity-40 animate-blob1"></div>

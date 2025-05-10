@@ -16,7 +16,7 @@ export default function Home() {
         <div className="absolute top-[20%] left-[-100px] w-60 h-60 bg-[#25aaa5] rounded-full filter blur-2xl opacity-35 animate-blob5" />
       </div>
 
-      <section className="relative h-screen snap-start overflow-hidden text-white overflow-hidden Accueil">
+      <section className="relative h-screen snap-start overflow-hidden text-white Accueil">
         <main className="relative container mx-auto p-4">
           <div id="accueilBottom" className="flex flex-row items-center justify-between p-6 bg-gradient-to-r rounded-lg">
             <div id="textAccueil" className="basis-[50%] ">

@@ -145,7 +145,8 @@ function Grow() {
             <h2>📝 Conclusion</h2>
             <p>
               Ce projet m&apos;a permis de développer mes compétences en game design, en travail d&apos;équipe
-              et en gestion de projet dans un temps limité. L&apos;utilisation de GDevelop m&apos;a ouvert à des possibilités
+              et en gestion de projet dans un temps limité. L&apos;utilisation de GDevelop m&apos;a ouvert à des
+              possibilités
               créatives sans barrière technique, tout en mettant l&apos;accent sur la logique et l&apos;ergonomie.
             </p>
           </div>
