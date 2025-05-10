@@ -1,19 +1,3 @@
-import Image from "next/image";
-
-export type LinkTechno = {
-    name: string;
-    icon: () => JSX.Element;
-}
-
-export const LINK_TECHNOS = [{
-    name: "GitLab",
-    icon: () => (
-        <Image src="/photos/gitlab-svgrepo-com.svg" alt="GitLab Logo" width="20" height="20"
-               className='c-white'/>
-    ),
-
-}]
-
 export type CarouselTechno = {
     name: string;
     iconUrl: string;
